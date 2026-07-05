@@ -1,0 +1,27 @@
+0			
+0	"Use MU Helper for %s sec"	1	6259
+1	"Kill %s monsters in the Hunting Ground."	1	6264
+2	"Use %s MP with Skill"	1	6263
+3	"Use %s Potions"	1	6261
+4	"Use %s Buffs"	1	6261
+5	"Repair Tempest Muun %s times"	1	6262
+6	"Repair Guardian %s times"	1	6262
+7	"Repair Equipment %s times"	1	6262
+8	"Purchase %s items in the Personal Shop"	1	6263
+9	"Add a Friend %s times"	1	6262
+10	"Send Letter to a Friend %s times"	1	6262
+11	"Level up Character %s times"	1	6260
+12	"Dismantle Item %s times"	1	6261
+13	"Successfuly Combine Soul Potion %s times"	1	6261
+14	"Clear Baruka Event"	0	6265
+15	"Reach 1,000,000 DMG in Group Boss Battle"	0	6265
+16	"Enter Chaos Castle %s times"	1	6262
+17	"Enter Blood Castle %s times"	1	6262
+18	"Enter Devil Square %s times"	1	6262
+19	"Find and Kill the White Wizard"	0	6265
+20	"Participate and Succeed in Crywolf Siege"	0	6265
+21	"Participate in Crywolf Siege"	0	6265
+22	"Use Lapidary Stone Box %s times"	1	6262
+23	"Use Pickaxe %s times"	1	6262
+24	"Acquire %s dropped Jewel of Bless items"	1	6261
+end			

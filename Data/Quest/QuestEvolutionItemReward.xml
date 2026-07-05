@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==         File Name: QuestEvolutionItemReward            ==
+// ============================================================
+-->
+
+<QuestEvolutionItemReward>
+     <Reward QuestID="1" ClassFlag="9" ItemCat="16" ItemIndex="136" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" SocketBonus="0"/> 
+     <Reward QuestID="2" ClassFlag="9" ItemCat="16" ItemIndex="136" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" SocketBonus="0"/> 
+     <Reward QuestID="3" ClassFlag="9" ItemCat="16" ItemIndex="136" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" SocketBonus="0"/> 
+     <Reward QuestID="4" ClassFlag="9" ItemCat="16" ItemIndex="137" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" SocketBonus="0"/> 
+     <Reward QuestID="9" ClassFlag="-1" ItemCat="13" ItemIndex="155" ItemLevel="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" SocketBonus="0"/> 
+</QuestEvolutionItemReward>

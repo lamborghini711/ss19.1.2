@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <DataFolder>D:\Data</DataFolder>
+  <DbUser>root</DbUser>
+  <DbPassword>loulxgame</DbPassword>
+  <DbServerIP>127.0.0.1</DbServerIP>
+  <DbServerPort>3306</DbServerPort>
+  <LoginDbName>MuOnline</LoginDbName>
+  <CharDbnNme>MuOnline</CharDbnNme>
+</Settings>

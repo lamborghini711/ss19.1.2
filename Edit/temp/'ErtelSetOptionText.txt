@@ -1,0 +1,11 @@
+0	"Increase Elemental ATK in %d"	0
+1	"Increase Elemental DEF in %d"	0
+2	"Increase Supreme ATK in %d"	0
+3	"Increase Supreme Defense in %d"	0
+4	"Increase Elemental Base DEF in %d"	0
+5	"Increase Elemental Damage in %d"	0
+6	"Increase ATK in %d"	0
+7	"Increase Wizardry in %d"	0
+8	"Increase ATK/Wizardry in %d"	0
+9	"Increase Wizardry/Curse in %d"	0
+end		

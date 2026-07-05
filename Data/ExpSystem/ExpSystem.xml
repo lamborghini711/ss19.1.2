@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==                 File Name: ExpSystem                 	 ==
+// ============================================================
+-->
+
+<ExpSystem>
+	
+	<StaicExp Normal="100" Master="100" Majestic="100" />
+	<PartyExp One="100" Two="105" Three="110" Four="115" Five="120" />
+	<PartyExpBonus One="100" Two="108" Three="113" Four="118" Five="123" />
+
+	<DynamicExp Enabled="0">
+		<Range Index="1" MinLevel="1" MaxLevel="350" MinRs="0" MaxRs="10" NormalExp="100" MasterExp="100" MajesticExp="100" />
+		<Range Index="2" MinLevel="351" MaxLevel="700" MinRs="0" MaxRs="10" NormalExp="95" MasterExp="95" MajesticExp="95" />
+		<Range Index="3" MinLevel="701" MaxLevel="1300" MinRs="0" MaxRs="10" NormalExp="85" MasterExp="85" MajesticExp="85" />
+		<Range Index="3" MinLevel="1301" MaxLevel="1400" MinRs="0" MaxRs="10" NormalExp="80" MasterExp="80" MajesticExp="80" />
+		<Range Index="3" MinLevel="1401" MaxLevel="1450" MinRs="0" MaxRs="10" NormalExp="75" MasterExp="75" MajesticExp="75" />
+		<Range Index="3" MinLevel="1451" MaxLevel="1650" MinRs="0" MaxRs="10" NormalExp="70" MasterExp="70" MajesticExp="70" />
+	</DynamicExp>
+</ExpSystem>

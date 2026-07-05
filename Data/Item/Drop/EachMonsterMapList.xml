@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: EachMonsterMapList                 ==
+// ============================================================
+// ============================================================
+//
+// ### EachMonsterMapList::Map ###
+//	Number: Map number, refer to MapList.xml
+//	FileName: Each Bag file name assigned to a map, mus tbe located in \Data\Items\Drop\EachMonsterMapDrop\
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<EachMonsterMapList>
+	<Map Number="0" FileName="000_Lorencia_Bag.xml" />
+	<Map Number="1" FileName="001_Dungeon_Bag.xml" />
+	<Map Number="2" FileName="002_Devias_Bag.xml" />
+	<Map Number="3" FileName="003_Noria_Bag.xml" />
+	<Map Number="4" FileName="004_LostTower_Bag.xml" />
+	<Map Number="7" FileName="007_Atlans_Bag.xml" />
+	<Map Number="8" FileName="008_Tarkan_Bag.xml" />
+	<Map Number="9" FileName="009_DevilSquare1-4_Bag.xml" />
+	<Map Number="10" FileName="010_Icarus_Bag.xml" />
+	<Map Number="11" FileName="011_BloodCastle1_Bag.xml" />
+	<Map Number="12" FileName="012_BloodCastle2_Bag.xml" />
+	<Map Number="13" FileName="013_BloodCastle3_bag.xml" />
+	<Map Number="14" FileName="014_BloodCastle4_bag.xml" />
+<!-- Uncomment to enable drop in Blood Castle event level 4-7-->
+	<Map Number="15" FileName="015_BloodCastle5_bag.xml" />
+	<Map Number="16" FileName="016_BloodCastle6_bag.xml" />
+	<Map Number="17" FileName="017_BloodCastle7_bag.xml" /> 
+	<Map Number="24" FileName="024_Kalima1_Bag.xml" />
+	<Map Number="25" FileName="025_Kalima2_Bag.xml" />
+	<Map Number="26" FileName="026_Kalima3_Bag.xml" />
+	<Map Number="27" FileName="027_Kalima4_Bag.xml" /> 
+	<Map Number="28" FileName="028_Kalima5_Bag.xml" /> 
+	<Map Number="29" FileName="029_Kalima6_Bag.xml" /> 
+	<Map Number="31" FileName="031_LandOfTrial_Bag.xml" />
+<!-- Uncomment to enable drop in Devil Square event level 4-7-->
+	<Map Number="32" FileName="032_DevilSqaure5-7_Bag.xml" /> 
+	<Map Number="33" FileName="033_Aida_Bag.xml" /> 
+	<Map Number="34" FileName="034_Crywolf_Bag.xml" />
+	<Map Number="36" FileName="036_Kalima7_Bag.xml" />
+	<Map Number="37" FileName="037_Kanturu_Bag.xml" />
+	<Map Number="38" FileName="038_KanturuRemain_Bag.xml" />
+	<Map Number="39" FileName="039_KanturuBoss_Bag.xml" />
+	<Map Number="40" FileName="040_Silent_Bag.xml" />
+	<Map Number="41" FileName="041_BalgassBarracks_Bag.xml" />
+	<Map Number="51" FileName="051_Elbeland_Bag.xml" />
+	<Map Number="56" FileName="056_SwampOfCalmness_Bag.xml" />
+	<Map Number="57" FileName="057_Raklion_Bag.xml" />
+	<Map Number="63" FileName="063_Vulcanus_Bag.xml" />
+	<Map Number="80" FileName="080_Karutan1_Bag.xml" />
+	<Map Number="81" FileName="081_Karutan2_Bag.xml" />
+	<Map Number="91" FileName="091_Acheron_Bag.xml" />
+	<Map Number="95" FileName="095_Debenter_Bag.xml" />
+	<Map Number="100" FileName="100_UrkMontain_Bag.xml" />
+	<Map Number="110" FileName="110_Nars_Bag.xml" />
+	<Map Number="112" FileName="112_Ferea_Bag.xml" />
+	<Map Number="113" FileName="113_NixieLake_Bag.xml" />
+	<Map Number="116" FileName="116_DeepDungeon1_Bag.xml" />
+	<Map Number="117" FileName="117_DeepDungeon2_Bag.xml" />
+	<Map Number="118" FileName="118_DeepDungeon3_Bag.xml" />
+	<Map Number="119" FileName="119_DeepDungeon4_Bag.xml" />
+	<Map Number="120" FileName="120_DeepDungeon5_Bag.xml" />
+	<Map Number="122" FileName="122_SwampOfDarkness_Bag.xml" />
+	<Map Number="123" FileName="123_KuberaMine_Bag.xml" />
+	<Map Number="124" FileName="123_KuberaMine_Bag.xml" />
+	<Map Number="125" FileName="123_KuberaMine_Bag.xml" />
+	<Map Number="126" FileName="123_KuberaMine_Bag.xml" />
+	<Map Number="127" FileName="123_KuberaMine_Bag.xml" />
+	<Map Number="128" FileName="128_AbyssOfAtlas1_Bag.xml" />
+	<Map Number="129" FileName="129_AbyssOfAtlas2_Bag.xml" />
+	<Map Number="130" FileName="130_AbyssOfAtlas3_Bag.xml" />
+	<Map Number="131" FileName="131_ScorchedCanyon_Bag.xml" />
+	<Map Number="132" FileName="132_RedSmokeIcarus_Bag.xml" />
+	<Map Number="133" FileName="133_ArenilTemple_Bag.xml" />
+	<Map Number="134" FileName="134_AshyAida_Bag.xml" />
+	<Map Number="135" FileName="135_OldKethotum_Bag.xml" />
+	<Map Number="136" FileName="136_BlazeKethotum_Bag.xml" />
+	<Map Number="137" FileName="137_Kanturu_Undergrounds_Bag.xml" />
+	<Map Number="138" FileName="138_Volcano_Ignis_Bag.xml" />
+	<Map Number="140" FileName="140_Bloody_Tarkan_Bag.xml" />
+	<Map Number="141" FileName="141_Tormenta_Island_Bag.xml" />
+	<Map Number="142" FileName="142_TwistedKarutan_Bag.xml" />
+	<Map Number="143" FileName="143_KardamahalUnderGroundTemple_Bag.xml" />
+</EachMonsterMapList>

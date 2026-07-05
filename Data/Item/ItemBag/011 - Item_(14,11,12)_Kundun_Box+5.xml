@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+//	BAG ITEM: NO LIMIT
+//
+// ### ItemBag::BagConfig ###
+//	Name: Name of an Item or Monster
+//	ItemRate: Chance to get an item from the bag, n/10000, if value is lower than 10000 then Zen drop is possible
+//	SetItemRate: Drop rate of random set item selected from entire pool of available SetItems, rate is being drawn individually for every drop attempt, n/10000, can be 0
+//	SetItemCount: Number of set items to drop if SetItemRate is set to value greater than 0
+//	MasterySetItemInclude: If set to 1 the set item drop based on SetItemRate will include mastery set items, otherwise set to 0
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ The SetItemRate is not available for all EVENT_BAG types. Define set items via Drop sections manually instead
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+//	MoneyDrop: Money (Zen) amount to drop from bag (must be greater than 0 if ItemRate is lower than 10000 and Ruud GainRate is 0)
+//	IsPentagramForBeginnersDrop: Defines whether to drop Pentagram for Beginners with pre-defined Errtels for Beginners, 0/1
+//	BagUseEffect:
+//		~ -1: no effect
+//		~ 0: Firecracker effect type
+//
+//	PartyDropRate: Chance to apply party drop, if chance rate draw succeed the bag will be executed individually for every party member within party range of 9 tiles from party master with consideration of PartyOneDropOnly setting, does not apply to INVENTORY bag type, n/10000
+//	PartyOneDropOnly: Defines type of item drop for party
+//		~ 0: Bag is executed individually for item and coin/ruud award for every party member within party range of 9 tiles from party master, for coin/ruud share type check PartyShareType setting
+//		~ 1: Bag is executed once only for item drop but issues coins/ruud for every party member within party range of 9 tiles from party master, for coin/ruud share type check PartyShareType setting
+//			
+//	PartyShareType: Determined mode of dividing share among party members, includes Coin, Ruud and Zen
+//		~ 0: Share proportionally to number of party members, e.g. coin reward is set to 100 and party members is 5, so each party member within 9 tiles from party master will receive 20 coins.
+//		~ 1: Each party member receives full coin amount configured in bag
+//
+//	BagUseType: Attribute is used only for item bags defined as BAG_EVENT type in ItemBagsScript.lua, does not apply to mix related bags
+//		~ 0: Reward is dropped on ground
+//		~ 1: Reward is issued to inventory
+//		~ 2: Reward is issued to Gremory Case
+//
+//	GCStorageType: Gremory Case storage type, applies only if BagUseType is set to 2
+//		~ 0: Account
+//		~ 1: Character
+//		~ 2: Mobile
+//		~ 3: Personal Store
+//	
+//	GCRewardType: Type of reward issued to Gremory Case, check GremoryCase.xml::GremoryCase::RewardExpiryTime::General::Use::Type, applies only if BagUseType is set to 2
+//
+//	BagUseRate: Defines probability to use Bag, n/10000.
+//				If value is lower than 10000 (100%) then a draw is performed between item bag and another drop system in hierarchy
+//
+// ### ItemBag:::SummonBook ### - drops random Summon Book from range - Cat: 14; Index: 217-221
+//	Enable: Activates or deactivates the Summon Book drop, 0/1
+//	DropRate: Summon Book drop rate, n/1000000
+//	ItemCat: Category of Summon Book Item: 14
+//	ItemIndex: Index of Summon Book Item: 217-221
+//
+// ### ItemBag::AddCoin ### - awards with configured coin type and count
+//	Enable: Activates or deactivates the coin award, 0/1
+//	CoinType:
+//		~ 0: WCoin
+//		~ 1: Goblin Point
+//
+//	CoinValue: Points count to award with
+//	PlayerMinLevel: Minimum level of player to apply Coin (must be lower or equal to PlayerMaxLevel)
+//	PlayerMaxLevel: Maximum level of player to apply Coin (must be greater or equal to PlayerMinLevel)
+//	PlayerMinReset: Minimum reset of player to apply Coin (must be lower or equal to PlayerMaxReset)
+//	PlayerMaxReset: Maximum reset of player to apply Coin (must be greater or equal to PlayerReset)
+//
+// ### ItemBag::Ruud ### - awards with configured amount of Ruud basing of the rate
+//	GainRate: Chance rate to award with configured amount of Ruud, n/10000, can be 0
+//	MinValue: Minimum amount of Ruud to award with
+//	MaxValue: Maximum amount of Ruud to award with
+//	PlayerMinLevel: Minimum level of player to apply Ruud (must be lower or equal to PlayerMaxLevel)
+//	PlayerMaxLevel: Maximum level of player to apply Ruud (must be greater or equal to PlayerMinLevel)
+//	PlayerMinReset: Minimum reset of player to apply Ruud (must be lower or equal to PlayerMaxReset)
+//	PlayerMaxReset: Maximum reset of player to apply Ruud (must be greater or equal to PlayerReset)
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ If MAX is used as value for PlayerMaxLevel attribute then the attribute is being set to sum of LevelNormalMax and LevelMasterMax and LevelMajesticMax from Common.ini
+//~~ If MAX is used as value for PlayerMaxReset attribute then the attribute is being set to value of MaxResets from Resetystem.xml
+//~~ To reward Ruud only from the bag the ItemRate should be set to 0, MoneyDrop set to 0, Ruud Gain Rate set to value from range of 1-1000 and no DropSection shouldl present in file
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+// ### DropSection ###
+//	UseMode: Determines way the section is being used like
+//		~ -1: Used for party and non-party drop
+//		~ 0: Used while not in party
+//		~ 1: Used for party only
+//
+//	DisplayName: Name of section, displayed within logs and used by ToolKit Premium editor
+//
+// ### ItemBag::DropSection::DropAllow ### - by setting lower class the higher one automatically is being allowed
+//	DW: 0 or specific class evolution: 1/2/3/4/5
+//	DK: 0 or specific class evolution: 1/2/3/4/5
+//	ELF: 0 or specific class evolution: 1/2/3/4/5
+//	MG: 0 or specific class evolution: 1/2/4/5
+//	DL: 0 or specific class evolution: 1/2/4/5
+//	SU: 0 or specific class evolution: 1/2/3/4/5
+//	RF: 0 or specific class evolution: 1/2/4/5
+//	GL: 0 or specific class evolution: 1/2/4/5
+//	RW: 0 or specific class evolution: 1/2/4/5
+//	SLA: 0 or specific class evolution: 1/2/3/4/5
+//	GC: 0 or specific class evolution: 1/2/3/4/5
+//	LW: 0 or specific class evolution: 1/2/3/4/5
+//	LM: 0 or specific class evolution: 1/2/3/4/5
+//	IK: 0 or specific class evolution: 1/2/3/4/5
+//  AC: 0 or specific class evolution: 1/2/3/4/5
+//	PlayerMinLevel: Minimum level of player to apply drop of items from the section (must be lower or equal to PlayerMaxLevel)
+//	PlayerMaxLevel: Maximum level of player to apply drop of items from the section (must be greater or equal to PlayerMinLevel)
+//	PlayerMinReset: Minimum reset of player to apply drop of items from the section (must be lower or equal to PlayerMaxReset)
+//	PlayerMaxReset: Maximum reset of player to apply drop of items from the section (must be greater or equal to PlayerReset)
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ If MAX is used as value for PlayerMaxLevel attribute then the attribute is being set to sum of LevelNormalMax and LevelMasterMax and LevelMajesticMax from Common.ini
+//~~ If MAX is used as value for PlayerMaxReset attribute then the attribute is being set to value of MaxResets from Resetystem.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+//	MapNumber: Map Number the drop of items applies to, -1 for all maps
+//
+// ### ItemBag::DropSection::DropAllow::Drop ###
+//	Rate: Drop rate of items from the section, n/10000
+//	Type: Defines the way items drop from the section
+//		~ 0: Regular drop, random items of configured count
+//		~ 1: All items from a section, Count attribute is ignored then
+//
+//	Count: Items count to be dropped at a time - option ignored for LuckyCoin, MuRuumy, LordMix and Cherry Blosson rewards, always 1
+//
+// ### ItemBag::DropSection::DropAllow::Drop::Item ###
+//	Cat: Category of the item, refer to \Data\Items\ItemList.xml
+//	Index: Index of the item, refer to \Data\Items\ItemList.xml
+//	ItemMinLevel: Minimum level the item should drop with (must be lower or equal to ItemMaxLevel)
+//	ItemMaxLevel: Maximum level of the item should drop with (must be greater or equal to ItemMinLevel)
+//	Durability: Durability is optional attribute, if used then defined value will be used, otherwise generated automatically, 0-255
+//	Skill: 0 - no Skill, -1 - Random (50/50% chance), 1 - with Skill
+//	Luck: 0 - no Luck, -1 - Random (50/50% chance), 1 - with Luck
+//	Option: 0 - no Option, -1 - Random, 1,2,3,4,5,6,7 - with specified option - +4,+8,+12,+16,+20,+24,+28
+//	Exc:
+//		Excellent Options:
+//			-1: No exc option
+//			-2: Random count of random options (based on rates from ItemExcellentOptions.xml)
+//			-3;X: Specified count of random options, the 'X' defines count of excellent options, max 9 (options selection based on rates from ItemExcellentOptions.xml)
+//			X;X;X;X;X;X;X;X;X: Defined excellent options, the 'X' is excellent option ID based on ItemExcellentOptions.xml, maximum 9 options can be defined
+//		Grade Options (4th and 5th Wings - 5th Wings can support up to two grade options of level 0 only):
+//			-1: No grade option
+//			-2: Random count of random options (based on rates from ItemGradeOption.xml)
+//			-3;X: Specified count of random options, the 'X' defines count of grade options, max 4 (options selection based on rates from ItemGradeOption.xml)
+//			ID1;LV1;ID2;LV2;ID3;LV3;ID4;LV4: Defines grade option index and option level, the 'IDX' is grade option index and LVX is grade option level based on Index and GradeXVal (0-9) from ItemGradeOption.xml, maximum 4 options can be defined
+//		Guardian Items:
+//			-1: No option
+//			-2;X: Random count of random options (based on rates from GuardianOption.xml), the 'X' takes value 0 or 1, determining whether to generate random elite option or not
+//			-3;X;Y: Specified count of random options, the 'X' defines count of options, max 4, the 'Y' takes value 0 or 1, determining whether to generate random elite option or not
+//			X;X;X;X;Y: Defines specific options, the 'X' is guardian regular option index from GuardianOption.xml::GuardianOption section, maximum 4 options can be defined, -1 if not applies, the Y is elite option index from GuardianItemOption.xml::GuardianEliteOption, must be defined as 5th argument, -1 if not applies
+//		Artifact Items:
+//			-1: No Option
+//			-2: Random options set (based on rates from ArtifactSystem.xml)
+//			X1;Y1;X2;Y2;X3;Y3: X is OptionType value from ArtifactOption.xml, -1 if not applies, Y is value index, 1~10, referring to ValueX of selected option, -1 if not applies
+//		WingCore:
+//			-1: No Option
+//			-2: Random count of random options (based on rates from WingCoreOption.xml)
+//			-3;X: Specified count of random options, the 'X' defines count of wing core options, max 2 (options selection based on rates from WingCoreOption.xml)
+//
+//	SetItem: 0 ~ no SetItem, 1 ~ SetItem (random Tier of specified item) - must be added as SetItem, otherwise option will be ignored
+//	ErrtelRank: Defines rank to drop Errtel item with, 1-5, not applies to Errtels of Beginner, by default set 1
+//	SocketCount:
+//		~ 0: no Socket slots
+//		~ 1: up to one slot
+//		~ 2: up to two slots
+//		~ 3: up to three slots
+//		~ 4: up to four slots
+//		~ 5: up to five slots
+//		~ -2: random count of socket slots (Pentagrams and Socket Items)
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~ Type attribute of the item must be set to 2, refer to ItemList.xml
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
+//	OptSlotInfo: Allows to configure option slots for mastery pentagrams, X;Y where X is minimum number of options slots and Y is maximum number of options slots, 0-4
+//	ElementalItem:
+//		~ 0: No element
+//		~ 1: Fire
+//		~ 2: Water
+//		~ 3: Earth
+//		~ 4: Wind
+//		~ 5: Darkness
+//		~ -1: Random element
+//
+//	MuunEvolutionItemCat: Attribute used and required for item 16,211 (Evolution Stone) only, defines Muun Item Category
+//	MuunEvolutionItemIndex: Attribute used and required for item 16,211 (Evolution Stone) only, defines Muun Item Index
+//	KindA: Attribute automatically assigned on a basis on ItemList.xml configuration, no necessary to be defined in bag
+//	Duration: Allows to drop expirable item, seconds (not every item is suitable for period items system, please test before putting on live server)
+//
+//~~ Item Bag structure explanation ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Bag structure supports multiple DropSections. Each DropSections supports multiple DropAllow sub-sections. Each DropAllow section may have multiple Drop sub-sections.
+//
+//~~ Understanding DropSection ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Every item bag (except INVENTORY bag type) supports ability to define multiple DropSection. It is used to drop two or more items from different sections of different rules for single player, check Item_(14,354,0)_PlayTime_Box.xml for examples.
+//
+//~~ Understanding DropAllow/Drop sections selection ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Qualified (player meets requirements of) DropAllow section is selected on basis of its weight. Weight (priority) of DropAllow section is equal to sum of all Rates of Drop sections and divided by number of Drop sections contained inside DropAllow section.
+// If there are multiple DropAllow sections of same weight then DropAllow section is selected randomly from pool of all qualified DropAllow sections of same weight.
+//
+// Drop hierarchy:
+//	1. Pentagram for beginners (IsPentagramForBeginnersDrop)
+//		OR
+//	2. Set Items (SetItemRate)
+//		OR
+//	3. Zen (MoneyDrop)
+//		AND (optionally)
+//	4. Bag Items or Zen (DropSection)
+//		AND (optionally)
+//	5. Coins and/or Ruud
+-->
+
+<ItemBag>
+	<BagConfig Name="Item_Box_of_Kundun+5" ItemRate="10000" SetItemRate="0" SetItemCount="1" MasterySetItemInclude="0" MoneyDrop="0" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseRate="10000"/>
+	<SummonBook Enable="0" DropRate="0" ItemCat="0" ItemIndex="0"/>
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<DropSection UseMode="-1" DisplayName="Section 1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" AC="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+			<Drop Rate="10000" Type="0" Count="1">
+<Item Cat="0" Index="20" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="21" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="22" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="23" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="24" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="25" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="26" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="27" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="28" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="29" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="30" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="31" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="2" Index="14" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="2" Index="15" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="2" Index="16" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="2" Index="17" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="2" Index="18" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="2" Index="19" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="2" Index="20" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="4" Index="21" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="4" Index="22" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="4" Index="23" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="4" Index="24" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="4" Index="25" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="4" Index="26" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="21" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="22" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="23" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="11" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="12" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="19" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="20" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="31" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="32" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="33" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="34" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="35" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="36" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="37" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="84" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="85" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="109" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="110" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="111" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="112" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="5" Index="113" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<!-- Venom Mist Set -->
+<Item Cat="7" Index="30" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="30" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="30" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="30" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="30" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="52" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="52" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="52" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="52" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="52" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="55" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="55" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="55" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="55" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="55" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Dragon Knight Set -->
+<Item Cat="7" Index="29" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="29" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="29" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="29" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="29" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="45" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="45" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="45" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="45" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="45" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="46" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="46" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="46" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="46" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="46" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Sylphid Ray Set -->
+<Item Cat="7" Index="31" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="31" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="31" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="31" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="31" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="49" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="49" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="49" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="49" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="49" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="50" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="50" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="50" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="50" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="50" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Eternal Wing Set -->
+<Item Cat="7" Index="42" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="42" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="42" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="42" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="42" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="53" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="53" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="53" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="53" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="53" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="40" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="40" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="40" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="40" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="40" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Phoenix Soul Star Set -->
+<Item Cat="7" Index="61" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="61" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="61" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="0" Index="34" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="61" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="146" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="146" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="146" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="0" Index="52" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="146" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="147" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="147" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="147" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="0" Index="53" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="147" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Volcano Set -->
+<Item Cat="8" Index="32" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="32" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="32" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="32" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="8" Index="47" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="47" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="47" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="47" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="48" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="48" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="48" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="48" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Sunlight Set -->
+<Item Cat="7" Index="33" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="33" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="33" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="33" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="33" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="51" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="51" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="51" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="51" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="51" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="58" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="58" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="58" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="58" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="58" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Princie Set -->
+<Item Cat="7" Index="93" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="93" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="93" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="93" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="93" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="148" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="148" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="148" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="148" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="148" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="149" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="149" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="149" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="149" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="149" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Light Load Rune Set -->
+<Item Cat="7" Index="119" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="119" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="119" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="119" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="119" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="120" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="120" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="120" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="120" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="120" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="121" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="121" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="121" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="121" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="121" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Fidelity Set -->
+<Item Cat="7" Index="177" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="177" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="177" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="177" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="177" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="178" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="178" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="178" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="178" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="178" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="179" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="179" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="179" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="179" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="179" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Stormwing Gunner Set -->
+<Item Cat="7" Index="209" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="209" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="209" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="209" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="209" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="210" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="210" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="210" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="210" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="210" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="211" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="211" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="211" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="211" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="211" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Scale Gunner Set -->
+<Item Cat="7" Index="238" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="238" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="238" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="238" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="238" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="239" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="239" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="239" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="239" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="239" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="240" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="240" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="240" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="240" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="240" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Mage Pad Set -->
+<Item Cat="7" Index="256" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="256" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="256" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="256" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="256" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="257" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="257" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="257" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="257" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="257" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="258" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="258" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="258" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="258" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="258" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+
+<!-- Illusion Knight Iron Plate Set -->
+<Item Cat="7" Index="302" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="8" Index="302" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="9" Index="302" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="10"mIndex="302" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<Item Cat="11"mIndex="302" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-3;6" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<Item Cat="7" Index="303" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="303" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="303" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="303" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="303" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="7" Index="304" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="8" Index="304" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="9" Index="304" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="10"mIndex="304" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>
+<Item Cat="11"mIndex="304" ItemMinLevel="15" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="0" SetItem="0" Socket1Rate="10000" Socket2Rate="10000" Socket3Rate="10000" Socket4Rate="10000" Socket5Rate="10000" Rate="10000" FireWork="0" Group="0"/>			</Drop>
+		</DropAllow>
+	</DropSection>
+</ItemBag>

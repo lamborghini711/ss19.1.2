@@ -1,0 +1,99 @@
+0	
+0	"Add Damage Count"	-1
+1	"ATK Speed Increase"	-1
+2	"AOE Increase"	-1
+3	"Add Splash Damage"	-1
+4	"Enemy's DEF Reduction"	-1
+65	"HP Increase"	0
+66	"MP Increase"	0
+67	"AG Increase"	0
+end		
+1	
+0	"DEF Increase"	0
+1	"Shield's DEF Increase "	0
+2	"Lv.5 Wing DEF Increase"	0
+3	"Extra DEF Increase"	0
+4	"Element DEF Increase"	0
+5	"Fire DEF Increase"	0
+6	"Water DEF Increase"	0
+7	"Earth DEF Increase"	0
+8	"Wind DEF Increase"	0
+9	"Darkness DEF Increase"	0
+10	"Pentagram DEF Increase"	0
+11	"Attack Success Rate Increase"	0
+12	"Defense Success Rate Increase"	0
+13	"Element Attack Success Rate Increase"	0
+14	"Element Defense Success Rate Increase"	0
+15	"Strength Stats Increase (Variable)"	0
+16	"Dexterity Stats Increase (Variable)"	0
+17	"HP Stats Increase (Variable)"	0
+18	"Energy Stats Increase (Variable)"	0
+19	"Min ATK Increase"	0
+20	"Min Wizardry Increase"	0
+21	"Min Curse Increase"	0
+22	"Max ATK Increase"	0
+23	"Max Wizardry Increase"	0
+24	"Max Curse Increase"	0
+25	"Mastery DMG Increase"	0
+26	"Mastery Wizardry Increase"	0
+27	"Mastery Curse Increase"	0
+28	"ATK Increase every 20 Levels"	0
+29	"Nuke ATK Increase"	0
+30	"Bolt ATK Increase"	0
+31	"Wide ATK Increase"	0
+32	"Extra ATK Increase"	0
+33	"Crit DMG Increase"	0
+34	"Excellent DMG Increase"	0
+35	"Double DMG Increase"	0
+36	"Lv.5 Wings ATK Increase"	0
+37	"Bleeding DMG Increase"	0
+38	"Severe Bleeding DMG Increase"	0
+39	"Poison DMG Increase"	0
+40	"Toxic DMG Increase"	0
+41	"Skillpower Increase"	0
+42	"Fire ATK Increase"	0
+43	"Water ATK Increase"	0
+44	"Earth ATK Increase"	0
+45	"Wind ATK Increase"	0
+46	"Darkness ATK Increase"	0
+47	"Pentagram ATK Increase"	0
+48	"Element ATK Increase"	0
+49	"Extra Crit Rate"	1
+50	"Crit DMG Rate"	1
+51	"Skillpower 1-Slot Increase"	0
+52	"Full HP Recovery Rate"	1
+53	"Double DMG Rate"	1
+54	"Extra Excellent Rate"	1
+55	"Excellent DMG Rate"	1
+56	"Skillpower 2-Slot Increase"	0
+57	"Full MP Recovery Rate"	1
+58	"Ignore Enemy DEF Rate"	1
+59	"Extra Double DMG Rate"	1
+60	"Triple DMG Rate"	1
+61	"Skillpower 3-Slot Increase"	0
+62	"AG Recovery Rate Increase"	0
+63	"(Strengthener Skill, Ability Skill) Additional DMG Rate"	1
+64	"Shock Defense Success Rate (Not applicable to PvP)"	0
+65	"HP Increase"	0
+66	"MP Increase"	0
+67	"AG Increase"	0
+68	"Nuke Critical Rate"	1
+69	"Bolt Critical Rate"	1
+70	"Wide Critical Rate"	1
+71	"Nuke Excellent Rate"	1
+72	"Bolt Excellent Rate"	1
+73	"Wide Excellent Rate"	1
+74	"Nuke Double DMG Rate"	1
+75	"Bolt Double DMG Rate"	1
+76	"Wide Double DMG Rate"	1
+77	"Nuke Triple DMG Rate"	1
+78	"Bolt Triple DMG Rate"	1
+79	"Wide Triple DMG Rate"	1
+80	"[Extra DMG] Nuke"	0
+81	"[Extra DMG] Bolt"	0
+82	"[Extra DMG] Wide"	0
+83	"Lv.5 Wing Wizardry Increase"	0
+84	"Lv.5 Wing Curse Increase"	0
+85	"Wizardry Increase every 20 Levels"	0
+86	"Curse Increase every 20 Levels"	0
+end		

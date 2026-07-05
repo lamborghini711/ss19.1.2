@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==             File Name: InvasionManager                 ==
+// ============================================================
+//
+// ### InvasionManager ###
+//	Enable: Activates or deactivates the manager, 0/1
+//
+// ### InvasionManager::Invasion ###
+//	Index: Index of invasion
+//	Name: Name of invasion, used for logging and in-file description purpose
+//
+// ### InvasionManager::Invasion::Start ###
+//	DayOfWeek: Day of a week the event will run on:
+//		~ 0: Sunday
+//		~ 1: Monday
+//		~ 2: Tuesday
+//		~ 3: Wednesday
+//		~ 4: Thursday
+//		~ 5: Friday
+//		~ 6: Saturday
+//		~ -1: every day
+//	Hour: Hour of the invasion start, 0-23
+//	Minute: Minute of the invasion start, 0-59
+//
+// STRICTLY NO COMMENTS INSIDE TAGS
+-->
+<InvasionManager Enable="1">
+	<!-- Type to Index -->
+	<InvasionStart>
+		<Invasion Index="0" Name="White Wizard">
+	<Start Duration="30" Hour="0"  Minute="20" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="5"  Minute="20" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="10" Minute="20" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="15" Minute="20" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="20" Minute="20" DayOfWeek="-1"/>
+	</Invasion>
+	
+	<Invasion Index="1" Name="Blue Event">
+		<Start Duration="30" Hour="1"  Minute="45" DayOfWeek="-1" />
+		<Start Duration="30" Hour="5"  Minute="45" DayOfWeek="-1" />
+		<Start Duration="30" Hour="9"  Minute="45" DayOfWeek="-1" />
+		<Start Duration="30" Hour="13" Minute="45" DayOfWeek="-1" />
+		<Start Duration="30" Hour="18" Minute="45" DayOfWeek="-1" />
+		<Start Duration="30" Hour="23" Minute="45" DayOfWeek="-1" />
+	</Invasion>
+		
+		<Invasion Index="2" Name="Death King">
+			<Start Duration="30" Hour="0" Minute="30" DayOfWeek="-1"/>
+			<Start Duration="30" Hour="6" Minute="30" DayOfWeek="-1"/>
+			<Start Duration="30" Hour="12" Minute="30" DayOfWeek="-1"/>
+			<Start Duration="30" Hour="18" Minute="30" DayOfWeek="-1"/>
+			<Start Duration="30" Hour="22" Minute="30" DayOfWeek="-1"/>
+		</Invasion>
+		
+		<Invasion Index="3" Name="New Year Day">
+		</Invasion>
+		
+		<Invasion Index="4" Name="Red Dragon">
+		    <Start Duration="30" Hour="0"  inute="15" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="4"  inute="15" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="8"  inute="15" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="12" inute="15" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="16" inute="15" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="20" inute="15" DayOfWeek="-1" />
+		</Invasion>
+		
+		<Invasion Index="5" Name="Summer">
+		    <Start Duration="30" Hour="0"  Minute="30" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="4"  Minute="30" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="8"  Minute="30" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="12" Minute="30" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="16" Minute="30" DayOfWeek="-1" />
+		    <Start Duration="30" Hour="20" Minute="30" DayOfWeek="-1" />
+	    </Invasion>
+		
+		<Invasion Index="6" Name="Santa Event">
+		</Invasion>
+	
+    	<Invasion Index="8" Name="Golden Invasion">
+		    <Start Duration="350" Hour="0"  Minute="0"  DayOfWeek="-1" />
+		    <Start Duration="300" Hour="3"  Minute="0"  DayOfWeek="-1" />
+		    <Start Duration="300" Hour="6"  Minute="0"  DayOfWeek="-1" />
+		    <Start Duration="300" Hour="9"  Minute="0"  DayOfWeek="-1" />
+		    <Start Duration="300" Hour="12" Minute="0"  DayOfWeek="-1" />
+		    <Start Duration="300" Hour="15" Minute="0"  DayOfWeek="-1" />
+		    <Start Duration="300" Hour="17" Minute="0"  DayOfWeek="-1" />
+		    <Start Duration="300" Hour="20" Minute="0"  DayOfWeek="-1" />
+	        <Start Duration="300" Hour="23" Minute="0"  DayOfWeek="-1" />
+    	</Invasion>
+		
+		<Invasion Index="9" Name="Lucky Coin">
+		</Invasion>
+		
+		<Invasion Index="10" Name="Muun Invasion">
+		    <Start Duration="30" Hour="1"  Minute="0" DayOfWeek="-1"  />
+		    <Start Duration="30" Hour="5"  Minute="0" DayOfWeek="-1"  />
+		    <Start Duration="30" Hour="10"  Minute="0" DayOfWeek="-1"  />
+		    <Start Duration="30" Hour="15"  Minute="0" DayOfWeek="-1"  />
+		    <Start Duration="30" Hour="20"  Minute="0" DayOfWeek="-1"  />
+		</Invasion>
+		
+		<Invasion Index="12" Name="Summon the Demons">
+			<Start Duration="300" Hour="0" Minute="0" DayOfWeek="-1"/>
+			<Start Duration="300" Hour="6" Minute="0" DayOfWeek="-1"/>
+			<Start Duration="300" Hour="12" Minute="0" DayOfWeek="-1"/>
+			<Start Duration="300" Hour="18" Minute="0" DayOfWeek="-1"/>
+		</Invasion>
+	</InvasionStart>
+	
+	<InvasionNotice>
+		<!-- EventInvasion to InvasionNotice -->
+		<!-- Info to Invasion, ID to Index -->
+		<Invasion Index="0" Name="White Wizard"       OnNotify="" OnStart="[WHITE WIZARD]and his orcs has invaded us"    OnEnd=""                          OnTimeOut=""                          OnKillBoss="$name has been killed by $tname in $map"/>
+		<Invasion Index="1" Name="Blue Event"         OnNotify="" OnStart="[BLUE EVENT] START"                           OnEnd=""                          OnTimeOut=""                          OnKillBoss=""/>
+		<Invasion Index="2" Name="Underground"        OnNotify="" OnStart="[DEATH KING] has spawn"                       OnEnd=""                          OnTimeOut=""                          OnKillBoss="$name has been killed by $tname in $map"/>
+		<Invasion Index="3" Name="New Year Day"       OnNotify="" OnStart=""                                             OnEnd=""                          OnTimeOut=""                          OnKillBoss=""/>
+		<Invasion Index="4" Name="Red Dragon"         OnNotify="" OnStart=""                                             OnEnd=""                          OnTimeOut=""                          OnKillBoss=""/>
+		<Invasion Index="5" Name="Summer"             OnNotify="" OnStart="[SAMMER EVENT] START"                           OnEnd=""                          OnTimeOut=""                          OnKillBoss=""/>
+		<Invasion Index="6" Name="Santa Event"        OnNotify="" OnStart="[CURSE SANTA]and his goblins has invaded us"  OnEnd=""                          OnTimeOut=""                          OnKillBoss="$name has been killed by $tname in $map"/>
+		<Invasion Index="7" Name="Moss Merchant"      OnNotify="" OnStart=""                                             OnEnd=""                          OnTimeOut=""                          OnKillBoss=""/>
+		<Invasion Index="8" Name="Golden Invasion"    OnNotify="" OnStart="[GOLDEN INVASION] Started"                    OnEnd="[GOLDEN INVASION] Has End" OnTimeOut="[GOLDEN INVASION] Has End" OnKillBoss="$name has been killed by $tname in $map"/>
+		<Invasion Index="9" Name="Lucky Coin"         OnNotify="" OnStart=""                                             OnEnd=""                          OnTimeOut=""                          OnKillBoss=""/>
+		<Invasion Index="10" Name="Muun Invasion"     OnNotify="" OnStart=""                                             OnEnd=""                          OnTimeOut=""                          OnKillBoss=""/>
+		<Invasion Index="11" Name="Sign of Elemental" OnNotify="" OnStart=""                                             OnEnd=""                          OnTimeOut=""                          OnKillBoss=""/>
+		<Invasion Index="12" Name="Summon the Demons" OnNotify="" OnStart="[SUMMON THE DEMONS]Start"                     OnEnd=""                          OnTimeOut="[SUMMON THE DEMONS]Finish" OnKillBoss=""/>
+	</InvasionNotice>
+	
+	<InvasionGroup>
+		<!-- EventInvasionGroup to InvasionGroup -->
+		<Invasion Index="0">
+			<Data Group="0" Rate="100" FollowBoss="1" ProtectBoss="1" OffattackDamage="1" WorldID="0" GroupX1="66" GroupY1="44" GroupX2="191" GroupY2="197"/>
+			<Data Group="1" Rate="100" FollowBoss="1" ProtectBoss="1" OffattackDamage="1" WorldID="2" GroupX1="111" GroupY1="14" GroupX2="232" GroupY2="125"/>
+			<Data Group="2" Rate="100" FollowBoss="1" ProtectBoss="1" OffattackDamage="1" WorldID="3" GroupX1="136" GroupY1="53" GroupX2="223" GroupY2="181"/>
+		</Invasion>
+		<Invasion Index="1">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="4" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="1" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="7" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="2" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="8" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="3" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="33" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="4" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="37" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+		<Invasion Index="2">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="0" GroupX1="66" GroupY1="44" GroupX2="191" GroupY2="197"/>
+			<Data Group="1" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="2" GroupX1="111" GroupY1="14" GroupX2="232" GroupY2="125"/>
+			<Data Group="2" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="3" GroupX1="090" GroupY1="051" GroupX2="135" GroupY2="098"/>
+		</Invasion>
+		<Invasion Index="3">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="4" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="1" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="7" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="2" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="8" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="3" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="33" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="4" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="37" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="5" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="57" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+		<Invasion Index="4">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="0" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="1" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="2" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="2" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="3" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+		<Invasion Index="5">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="4" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="1" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="7" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="2" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="8" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="3" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="33" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="4" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="37" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="5" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="57" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+		<Invasion Index="6">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="0" GroupX1="66" GroupY1="44" GroupX2="191" GroupY2="197"/>
+			<Data Group="1" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="2" GroupX1="111" GroupY1="14" GroupX2="232" GroupY2="125"/>
+			<Data Group="2" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="3" GroupX1="136" GroupY1="53" GroupX2="223" GroupY2="181"/>
+		</Invasion>
+		<Invasion Index="7">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="51" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+		<Invasion Index="8">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="-1" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+		<Invasion Index="9">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="-1" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+		<Invasion Index="10">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="0" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="1" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="51" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="2" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="2" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="3" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="3" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="4" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="4" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="5" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="10" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="6" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="28" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="7" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="33" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="8" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="57" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="9" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="56" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="10" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="37" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+			<Data Group="11" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="36" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+		<Invasion Index="12">
+			<Data Group="0" Rate="100" FollowBoss="0" ProtectBoss="0" OffattackDamage="1" WorldID="-1" GroupX1="-1" GroupY1="-1" GroupX2="-1" GroupY2="-1"/>
+		</Invasion>
+	</InvasionGroup>
+</InvasionManager>

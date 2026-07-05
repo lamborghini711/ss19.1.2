@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==           File Name: EventLabyrinthMonster             ==
+// ============================================================
+-->
+
+<EventLabyrinthMonster>
+	<Data ID="1"  Level="2"   HP="2"   Damage="2"   Def="2"   AttackSucces="2"   DefSucces="2"   ElementalDamage="2"   ElementalDef="2"   ElementalAttackSucces="2"   ElementDefSucces="2" />
+	<Data ID="2"  Level="2"   HP="2,1" Damage="2,1" Def="2,1" AttackSucces="2,1" DefSucces="2,1" ElementalDamage="2,1" ElementalDef="2,1" ElementalAttackSucces="2,1" ElementDefSucces="2,1" />
+	<Data ID="3"  Level="2"   HP="2,2" Damage="2,2" Def="2,2" AttackSucces="2,2" DefSucces="2,2" ElementalDamage="2,2" ElementalDef="2,2" ElementalAttackSucces="2,2" ElementDefSucces="2,2" />
+	<Data ID="4"  Level="2"   HP="2,3" Damage="2,3" Def="2,3" AttackSucces="2,3" DefSucces="2,3" ElementalDamage="2,3" ElementalDef="2,3" ElementalAttackSucces="2,3" ElementDefSucces="2,3" />
+	<Data ID="5"  Level="2"   HP="2,4" Damage="2,4" Def="2,4" AttackSucces="2,4" DefSucces="2,4" ElementalDamage="2,4" ElementalDef="2,4" ElementalAttackSucces="2,4" ElementDefSucces="2,4" />
+	<Data ID="6"  Level="2,4" HP="2,5" Damage="2,5" Def="2,5" AttackSucces="2,5" DefSucces="2,5" ElementalDamage="2,5" ElementalDef="2,5" ElementalAttackSucces="2,5" ElementDefSucces="2,5" />
+	<Data ID="7"  Level="2,4" HP="2,6" Damage="2,6" Def="2,6" AttackSucces="2,6" DefSucces="2,6" ElementalDamage="2,6" ElementalDef="2,6" ElementalAttackSucces="2,6" ElementDefSucces="2,6" />
+	<Data ID="8"  Level="2,4" HP="2,7" Damage="2,7" Def="2,7" AttackSucces="2,7" DefSucces="2,7" ElementalDamage="2,7" ElementalDef="2,7" ElementalAttackSucces="2,7" ElementDefSucces="2,7" />
+	<Data ID="9"  Level="2,4" HP="2,8" Damage="2,8" Def="2,8" AttackSucces="2,8" DefSucces="2,8" ElementalDamage="2,8" ElementalDef="2,8" ElementalAttackSucces="2,8" ElementDefSucces="2,8" />
+	<Data ID="10" Level="2,4" HP="2,9" Damage="2,9" Def="2,9" AttackSucces="2,9" DefSucces="2,9" ElementalDamage="2,9" ElementalDef="2,9" ElementalAttackSucces="2,9" ElementDefSucces="2,9" />
+	<Data ID="11" Level="2,8" HP="4"   Damage="4"   Def="4"   AttackSucces="4"   DefSucces="4"   ElementalDamage="4"   ElementalDef="4"   ElementalAttackSucces="4"   ElementDefSucces="4" />
+	<Data ID="12" Level="2,8" HP="4,1" Damage="4,1" Def="4,1" AttackSucces="4,1" DefSucces="4,1" ElementalDamage="4,1" ElementalDef="4,1" ElementalAttackSucces="4,1" ElementDefSucces="4,1" />
+	<Data ID="13" Level="2,8" HP="4,2" Damage="4,2" Def="4,2" AttackSucces="4,2" DefSucces="4,2" ElementalDamage="4,2" ElementalDef="4,2" ElementalAttackSucces="4,2" ElementDefSucces="4,2" />
+	<Data ID="14" Level="2,8" HP="4,3" Damage="4,3" Def="4,3" AttackSucces="4,3" DefSucces="4,3" ElementalDamage="4,3" ElementalDef="4,3" ElementalAttackSucces="4,3" ElementDefSucces="4,3" />
+	<Data ID="15" Level="2,8" HP="4,4" Damage="4,4" Def="4,4" AttackSucces="4,4" DefSucces="4,4" ElementalDamage="4,4" ElementalDef="4,4" ElementalAttackSucces="4,4" ElementDefSucces="4,4" />
+	<Data ID="16" Level="3,2" HP="4,5" Damage="4,5" Def="4,5" AttackSucces="4,5" DefSucces="4,5" ElementalDamage="4,5" ElementalDef="4,5" ElementalAttackSucces="4,5" ElementDefSucces="4,5" />
+	<Data ID="17" Level="3,2" HP="4,6" Damage="4,6" Def="4,6" AttackSucces="4,6" DefSucces="4,6" ElementalDamage="4,6" ElementalDef="4,6" ElementalAttackSucces="4,6" ElementDefSucces="4,6" />
+	<Data ID="18" Level="3,2" HP="4,7" Damage="4,7" Def="4,7" AttackSucces="4,7" DefSucces="4,7" ElementalDamage="4,7" ElementalDef="4,7" ElementalAttackSucces="4,7" ElementDefSucces="4,7" />
+	<Data ID="19" Level="3,2" HP="4,8" Damage="4,8" Def="4,8" AttackSucces="4,8" DefSucces="4,8" ElementalDamage="4,8" ElementalDef="4,8" ElementalAttackSucces="4,8" ElementDefSucces="4,8" />
+	<Data ID="20" Level="3,2" HP="4,9" Damage="4,9" Def="4,9" AttackSucces="4,9" DefSucces="4,9" ElementalDamage="4,9" ElementalDef="4,9" ElementalAttackSucces="4,9" ElementDefSucces="4,9" />
+	<Data ID="21" Level="3,6" HP="6"   Damage="6"   Def="6"   AttackSucces="6"   DefSucces="6"   ElementalDamage="6"   ElementalDef="6"   ElementalAttackSucces="6"   ElementDefSucces="6" />
+	<Data ID="22" Level="3,6" HP="6,1" Damage="6,1" Def="6,1" AttackSucces="6,1" DefSucces="6,1" ElementalDamage="6,1" ElementalDef="6,1" ElementalAttackSucces="6,1" ElementDefSucces="6,1" />
+	<Data ID="23" Level="3,6" HP="6,2" Damage="6,2" Def="6,2" AttackSucces="6,2" DefSucces="6,2" ElementalDamage="6,2" ElementalDef="6,2" ElementalAttackSucces="6,2" ElementDefSucces="6,2" />
+	<Data ID="24" Level="3,6" HP="6,3" Damage="6,3" Def="6,3" AttackSucces="6,3" DefSucces="6,3" ElementalDamage="6,3" ElementalDef="6,3" ElementalAttackSucces="6,3" ElementDefSucces="6,3" />
+	<Data ID="25" Level="3,6" HP="6,4" Damage="6,4" Def="6,4" AttackSucces="6,4" DefSucces="6,4" ElementalDamage="6,4" ElementalDef="6,4" ElementalAttackSucces="6,4" ElementDefSucces="6,4" />
+	<Data ID="26" Level="4"   HP="6,5" Damage="6,5" Def="6,5" AttackSucces="6,5" DefSucces="6,5" ElementalDamage="6,5" ElementalDef="6,5" ElementalAttackSucces="6,5" ElementDefSucces="6,5" />
+	<Data ID="27" Level="4"   HP="6,6" Damage="6,6" Def="6,6" AttackSucces="6,6" DefSucces="6,6" ElementalDamage="6,6" ElementalDef="6,6" ElementalAttackSucces="6,6" ElementDefSucces="6,6" />
+	<Data ID="28" Level="4"   HP="6,7" Damage="6,7" Def="6,7" AttackSucces="6,7" DefSucces="6,7" ElementalDamage="6,7" ElementalDef="6,7" ElementalAttackSucces="6,7" ElementDefSucces="6,7" />
+	<Data ID="29" Level="4"   HP="6,8" Damage="6,8" Def="6,8" AttackSucces="6,8" DefSucces="6,8" ElementalDamage="6,8" ElementalDef="6,8" ElementalAttackSucces="6,8" ElementDefSucces="6,8" />
+	<Data ID="30" Level="4"   HP="6,9" Damage="6,9" Def="6,9" AttackSucces="6,9" DefSucces="6,9" ElementalDamage="6,9" ElementalDef="6,9" ElementalAttackSucces="6,9" ElementDefSucces="6,9" />
+	<Data ID="31" Level="4,4" HP="8"   Damage="8"   Def="8"   AttackSucces="8"   DefSucces="8"   ElementalDamage="8"   ElementalDef="8"   ElementalAttackSucces="8"   ElementDefSucces="8" />
+	<Data ID="32" Level="4,4" HP="8,1" Damage="8,1" Def="8,1" AttackSucces="8,1" DefSucces="8,1" ElementalDamage="8,1" ElementalDef="8,1" ElementalAttackSucces="8,1" ElementDefSucces="8,1" />
+	<Data ID="33" Level="4,4" HP="8,2" Damage="8,2" Def="8,2" AttackSucces="8,2" DefSucces="8,2" ElementalDamage="8,2" ElementalDef="8,2" ElementalAttackSucces="8,2" ElementDefSucces="8,2" />
+	<Data ID="34" Level="4,4" HP="8,3" Damage="8,3" Def="8,3" AttackSucces="8,3" DefSucces="8,3" ElementalDamage="8,3" ElementalDef="8,3" ElementalAttackSucces="8,3" ElementDefSucces="8,3" />
+	<Data ID="35" Level="4,4" HP="8,4" Damage="8,4" Def="8,4" AttackSucces="8,4" DefSucces="8,4" ElementalDamage="8,4" ElementalDef="8,4" ElementalAttackSucces="8,4" ElementDefSucces="8,4" />
+	<Data ID="36" Level="4,8" HP="8,5" Damage="8,5" Def="8,5" AttackSucces="8,5" DefSucces="8,5" ElementalDamage="8,5" ElementalDef="8,5" ElementalAttackSucces="8,5" ElementDefSucces="8,5" />
+	<Data ID="37" Level="5,5" HP="8,6" Damage="8,6" Def="8,6" AttackSucces="8,6" DefSucces="8,6" ElementalDamage="8,6" ElementalDef="8,6" ElementalAttackSucces="8,6" ElementDefSucces="8,6" />
+	<Data ID="38" Level="5,5" HP="8,7" Damage="8,7" Def="8,7" AttackSucces="8,7" DefSucces="8,7" ElementalDamage="8,7" ElementalDef="8,7" ElementalAttackSucces="8,7" ElementDefSucces="8,7" />
+	<Data ID="39" Level="5,5" HP="8,8" Damage="8,8" Def="8,8" AttackSucces="8,8" DefSucces="8,8" ElementalDamage="8,8" ElementalDef="8,8" ElementalAttackSucces="8,8" ElementDefSucces="8,8" />
+	<Data ID="40" Level="5,5" HP="8,9" Damage="8,9" Def="8,9" AttackSucces="8,9" DefSucces="8,9" ElementalDamage="8,9" ElementalDef="8,9" ElementalAttackSucces="8,9" ElementDefSucces="8,9" />
+	<Data ID="41" Level="5,5" HP="10"  Damage="10"  Def="10"  AttackSucces="10"  DefSucces="10"  ElementalDamage="10"  ElementalDef="10"  ElementalAttackSucces="10"  ElementDefSucces="10" />
+</EventLabyrinthMonster>

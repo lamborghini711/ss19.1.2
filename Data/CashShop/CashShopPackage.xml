@@ -1,0 +1,56 @@
+<CashShopPackage>
+  <Category ID="2">
+    <Package ID="3" Position="2" Name="Seal of Wealth" Description="" DisPlayItem="6700" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="4" Position="3" Name="Seal of Healing" Description="" DisPlayItem="6718" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="5" Position="4" Name="Seal of Divinity" Description="" DisPlayItem="6719" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="6" Position="5" Name="Master Seal of Wealth" Description="" DisPlayItem="6750" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="7" Position="6" Name="Party EXP Bonus Item" Description="" DisPlayItem="6759" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
+     <Package ID="8" Position="7" Name="Max AG Boost Aura" Description="" DisPlayItem="6760" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
+  </Category>
+  <Category ID="3">
+    <Package ID="12" Position="0" Name="Scroll of Quickness" Description="" DisPlayItem="7240" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="13" Position="1" Name="Scroll of Defense" Description="" DisPlayItem="7241" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="14" Position="2" Name="Scroll of Wrath" Description="" DisPlayItem="7242" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="15" Position="3" Name="Scroll of Wizardry" Description="" DisPlayItem="7243" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="16" Position="4" Name="Scroll of Health" Description="" DisPlayItem="7244" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="17" Position="5" Name="Scroll of Mana" Description="" DisPlayItem="7245" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="18" Position="6" Name="Scroll of Battle" Description="" DisPlayItem="7265" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="19" Position="7" Name="Scroll of Strength" Description="" DisPlayItem="7266" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="20" Position="8" Name="Scroll of Healing" Description="" DisPlayItem="7308" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
+  </Category>
+  <Category ID="4">
+    <Package ID="76" Position="0" Name="Reset Fruit Strength" Description="Resetea Stat de Fuerza" DisPlayItem="6710" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Reset Stat" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="77" Position="1" Name="Reset Fruit Quickness" Description="Resetea la agilidad" DisPlayItem="6711" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Reset Stat" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="78" Position="2" Name="Reset Fruit Health" Description="Resetea el Stat de Vitalidad" DisPlayItem="6712" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Reset Stat" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="79" Position="3" Name="Reset Fruit Energy" Description="Resetea el Stat de Energia" DisPlayItem="6713" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Reset Stat" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="80" Position="4" Name="Reset Fruit Control" Description="Resetea los Stat de Command (Dark Lord)" DisPlayItem="6714" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Reset Stat" StartDate="20100526194000" EndDate="20190531124000" />
+  </Category>
+  <Category ID="6">
+    <Package ID="35" Position="6" Name="Talisman of Luck" Description="" DisPlayItem="7221" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="36" Position="7" Name="Talisman of Chaos Assembly" Description="" DisPlayItem="7264" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="37" Position="8" Name="Elemental Talisman of Luck" Description="" DisPlayItem="7357" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="38" Position="9" Name="Elemental Talisman of Chaos" Description="" DisPlayItem="7358" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="39" Position="10" Name="Pentagram Emblem" Description="" DisPlayItem="6653" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="40" Position="11" Name="Expansion Scroll Radiance Slo" Description="" DisPlayItem="7484" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="41" Position="12" Name="Blessing of Spirit" Description="" DisPlayItem="7488" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Chaos Items" StartDate="20100526194000" EndDate="20190531124000" />
+  </Category>
+  <Category ID="7">
+    <Package ID="42" Position="0" Name="Varka Entrance Ticket" Description="" DisPlayItem="10348" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="43" Position="1" Name="Nixie's spirit fragment" Description="" DisPlayItem="7558" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="44" Position="2" Name="Boss Battle Ticket" Description="" DisPlayItem="10349" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="45" Position="3" Name="Pass Ticket" Description="" DisPlayItem="10362" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="46" Position="4" Name="Gold Pass Voucher" Description="" DisPlayItem="10363" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="47" Position="5" Name="Premium Pass Voucher" Description="" DisPlayItem="10364" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Pass Ticket" StartDate="20100526194000" EndDate="20190531124000" />
+  </Category>
+  <Category ID="9">
+    <Package ID="53" Position="0" Name="Pink Panda Ring" Description="" DisPlayItem="6734" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="54" Position="1" Name="Brown Panda Ring" Description="" DisPlayItem="6822" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="55" Position="2" Name="Dark Transformation Ring" Description="" DisPlayItem="6924" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="56" Position="3" Name="Demon" Description="" DisPlayItem="6720" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="57" Position="4" Name="Spirit of Guardian" Description="" DisPlayItem="6721" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="58" Position="5" Name="Pet Panda" Description="" DisPlayItem="6736" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="59" Position="6" Name="Pet Skeleton" Description="" DisPlayItem="6779" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="81" Position="7" Name="Lethal Wizard's Ring" Description="" DisPlayItem="6763" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="82" Position="8" Name="Wizards Ring" Description="" DisPlayItem="6676" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
+  </Category>
+</CashShopPackage>

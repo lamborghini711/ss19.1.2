@@ -1,0 +1,54 @@
+1	
+1	
+0	"Guaranteed - 400 Ruud"
+1	"Random - 200 - 4,000 Ruud, [Bound]Bless of Light (Low Grade)"
+end	
+2	
+0	"Guaranteed - Elemental Rune"
+1	"Random - Normal Pentagram, Rare Pentagram, Unique Pentagram, Rank1 Lv.7 Eretel, Elemental Rune, [Bound]Bless of Light (Low Grade)"
+end	
+end	
+2	
+1	
+0	"Guaranteed - 400 Ruud"
+1	"Random - 200 - 4,000 Ruud, [Bound]Bless of Light (Low Grade)"
+end	
+2	
+0	"Guaranteed - Elemental Rune"
+1	"Random - Normal Pentagram, Rare Pentagram, Unique Pentagram, Rank1 Lv.7 Eretel, Elemental Rune, [Bound]Bless of Light (Low Grade)"
+end	
+end	
+3	
+1	
+0	"Guaranteed - 400 Ruud"
+1	"Random - 200 - 4,000 Ruud, [Bound]Bless of Light (Middle Grade)"
+end	
+2	
+0	"Guaranteed - Elemental Rune"
+1	"Random - Normal Pentagram, Rare Pentagram, Unique Pentagram, Rank1 Lv.7 Eretel, Elemental Rune, [Bound]Bless of Light (Middle Grade)"
+end	
+end	
+4	
+1	
+0	"Guaranteed - 400 Ruud"
+1	"Random - 200 - 4,000 Ruud, [Bound]Bless of Light (Middle Grade)"
+end	
+2	
+0	"Guaranteed - Elemental Rune"
+1	"Random - Normal Pentagram, Rare Pentagram, Unique Pentagram, Rank1 Lv.7 Eretel, Elemental Rune, [Bound]Bless of Light (Middle Grade)"
+end	
+end	
+5	
+1	
+0	"Guaranteed - 400 Ruud"
+1	"Random - 200 - 4,000 Ruud, [Bound]Bless of Light (Middle Grade)"
+end	
+2	
+0	"Guaranteed - Elemental Rune"
+1	"Random - Normal Pentagram, Rare Pentagram, Unique Pentagram, Rank1 Lv.7 Eretel, Elemental Rune, [Bound]Bless of Light (Middle Grade)"
+end	
+3	
+0	"Guaranteed - Excellent Ring"
+1	"Random - Excellent Ring, Excellent Necklace, Earring of Wrath(Left) or (Right), Lapidary Stone, Cherry Blossom Rice Cake, [Bound]Bless of Light (Middle Grade)"
+end	
+end	

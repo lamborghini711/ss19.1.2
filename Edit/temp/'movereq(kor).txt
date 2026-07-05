@@ -1,0 +1,69 @@
+									
+1	"Arena"	"Arena"	2000	1	-1	50	0	0	-1
+48	"Event square"	"Event square"	20000	1	-1	503	1	47	-1
+44	"Loren Market"	"Loren Market"	10000	1	-1	333	2	18	-1
+2	"Lorencia"	"Lorencia"	2000	10	-1	17	3	17	7
+3	"Noria"	"Noria"	2000	10	-1	27	4	6	32
+31	"Elbeland"	"Elbeland"	2000	10	-1	267	9	42	418
+32	"Elbeland2"	"Elbeland2"	2500	10	-1	268	10	43	422
+43	"Elbeland3"	"Elbeland3"	3000	10	-1	269	11	44	425
+4	"Devias"	"Devias"	2000	10	-1	22	5	11	24
+5	"Devias2"	"Devias2"	2500	10	-1	72	6	12	19
+6	"Devias3"	"Devias3"	3000	10	-1	73	7	13	20
+7	"Devias4"	"Devias4"	3500	10	-1	74	8	14	20
+8	"Dungeon"	"Dungeon"	3000	20	-1	2	12	8	11
+9	"Dungeon2"	"Dungeon2"	3500	25	-1	6	13	9	13
+10	"Dungeon3"	"Dungeon3"	4000	30	-1	10	14	10	8
+11	"Atlans"	"Atlans"	4000	50	220	49	15	35	45
+12	"Atlans2"	"Atlans2"	4500	80	250	75	23	39	52
+13	"Atlans3"	"Atlans3"	5000	90	300	76	24	40	48
+14	"LostTower"	"LostTower"	5000	40	-1	42	16	20	39
+15	"LostTower2"	"LostTower2"	5500	40	-1	31	17	21	34
+16	"LostTower3"	"LostTower3"	6000	40	-1	33	18	22	41
+17	"LostTower4"	"LostTower4"	6500	50	-1	35	19	23	37
+18	"LostTower5"	"LostTower5"	7000	50	-1	37	20	24	40
+19	"LostTower6"	"LostTower6"	7500	70	-1	39	21	25	35
+20	"LostTower7"	"LostTower7"	8000	70	-1	41	22	26	35
+21	"Tarkan"	"Tarkan"	8000	130	-1	57	25	67	57
+22	"Tarkan2"	"Tarkan2"	8500	160	-1	77	28	68	61
+50	"Ferea"	"Ferea"	50000	400	-1	509	40	70	730
+25	"Aida1"	"Aida1"	8500	150	-1	119	26	32	306
+27	"Aida2"	"Aida2"	8500	380	-1	140	37	33	550
+23	"Icarus"	"Icarus"	10000	160	-1	63	29	48	70
+28	"KanturuRuins1"	"KanturuRuins1"	9000	160	350	138	27	53	353
+29	"KanturuRuins2"	"KanturuRuins2"	9000	160	350	141	30	54	350
+45	"KanturuRuins3"	"KanturuRuins3"	15000	380	-1	334	38	55	556
+30	"KanturuRelics"	"KanturuRelics"	12000	300	-1	139	33	52	360
+46	"Karutan1"	"Karutan1"	13000	280	-1	335	31	56	574
+47	"Karutan2"	"Karutan2"	14000	380	-1	344	36	57	576
+34	"Raklion"	"Raklion"	15000	380	-1	287	39	16	458
+51	"Nixies Lake"	"Nixies Lake"	50000	630	-1	522	41	7	744
+66	"old Kethotum"	"old Kethotum"	50000	700	-1	648	42	45	893
+33	"SwampOfPeace"	"SwampOfPeace"	15000	380	-1	273	35	71	449
+49	"Acheron"	"Akeron"	50000	300	-1	417	34	34	591
+42	"Vulcanus"	"Vulcanus"	15000	300	-1	294	32	27	490
+24	"Loren Deep"	"Loren Deep"	0	10	-1	104	56	19	-1
+26	"Crywolf"	"Crywolf"	50000	380	-1	118	56	57	-1
+40	"Barracks"	"Barracks"	0	380	-1	256	56	58	-1
+41	"Refuge"	"Refuge"	0	380	-1	257	56	58	-1
+52	"Deep Dungeon 1"	"Deep Dungeon 1"	50000	770	-1	561	43	1	767
+53	"Deep Dungeon 2"	"Deep Dungeon 2"	50000	770	-1	562	44	2	772
+54	"Deep Dungeon 3"	"Deep Dungeon 3"	50000	770	-1	563	45	3	773
+55	"Deep Dungeon 4"	"Deep Dungeon 4"	50000	770	-1	564	46	4	769
+56	"Deep Dungeon 5"	"Deep Dungeon 5"	50000	770	-1	565	47	5	777
+57	"SwampOfDarkness"	"SwampOfDarkness"	50000	800	-1	567	48	41	788
+58	"Cubera Mines"	"KuberaMine"	50000	850	-1	591	58	65	810
+59	"Atlans (Abyss)1"	"Atlans (Abyss)1"	50000	900	-1	617	59	36	832
+60	"Atlans (Abyss)2"	"Atlans (Abyss)2"	50000	925	-1	618	60	37	834
+61	"Atlans (Abyss)3"	"Atlans (Abyss)3"	50000	950	-1	619	61	38	836
+62	"Scorched Canyon"	"Scorched Canyon"	50000	1000	-1	620	62	30	846
+63	"Crimson Flame's Icarus"	"Crimson Flame's Icarus"	50000	1050	-1	631	63	72	861
+64	"Temple of Arnil"	"Temple of Arnil"	50000	1100	-1	634	64	31	867
+65	"Gray Aida"	"Gray Aida"	50000	1150	-1	643	65	49	875
+67	"Burning Kethotum"	"Burning Kethotum"	50000	1200	-1	659	66	28	896
+68	"Kanturu Underground"	"Kanturu Underground"	50000	1250	-1	670	67	51	905
+69	"Ignis Volcano"	"Ignis Volcano"	50000	1300	-1	675	68	46	911
+70	"Gore Tarkan"	"Blood Tarkan"	50000	1350	-1	682	69	29	926
+71	"Tormenta Island"	"Tormenta Island"	50000	1400	-1	694	70	69	942
+72	"Twisted Karutan"	"Twisted Karutan"	50000	1450	-1	699	71	15	955
+73	"Kardamahal UnderGround Temple"	"Kardamahal UnderGround Temple"	50000	1500	-1	704	72	50	963

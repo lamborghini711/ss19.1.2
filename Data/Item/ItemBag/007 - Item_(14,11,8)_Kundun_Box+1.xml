@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf - 8"?>
+<!--
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==   File Name: Item(14_11_8)_Box_of_Kundun_+_1.xml				 	 ==
+// ============================================================
+-->
+
+<ItemBag>
+	<BagConfig Name="Item_Kundun_Box+1" ItemRate="10000" SetItemRate="0" SetItemCount="1" MasterySetItemInclude="0" MoneyDrop="0" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseRate="10000"/>
+	<SummonBook Enable="0" DropRate="0" ItemCat="0" Index="0"/>
+	<AddCoin Enable="0" CoinType="0" CoinValue="0" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
+	<DropSection UseMode="-1" DisplayName="Section 1">
+		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" AC="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
+			<Drop Rate="10000" Type="0" Count="1">
+<!-- ===================== DARK WIZARD ===================== -->
+<!-- Pad Set -->
+            <Item Cat="7" Index="2" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="2" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="2" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="2" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="2" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Bone Set -->
+            <Item Cat="7" Index="4" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="4" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="4" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="4" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="4" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Sphinx Set -->
+            <Item Cat="7" Index="7" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="7" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="7" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="7" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="7" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Legendary Set -->
+            <Item Cat="7" Index="3" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="3" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="3" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="3" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="3" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== DARK KNIGHT ===================== -->
+<!-- Leather Set -->
+            <Item Cat="7" Index="5" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="5" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="5" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="5" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="5" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Scale Set -->
+            <Item Cat="7" Index="6" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="6" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="6" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="6" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="6" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Plate Set -->
+            <Item Cat="7" Index="9" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="9" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="9" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="9" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="9" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Dragon Set -->
+            <Item Cat="7" Index="1" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="1" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="1" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="1" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="1" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== FAIRY ELF ===================== -->
+<!-- Vine Set -->
+            <Item Cat="7" Index="10" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="10" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="10" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="10" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="10" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Silk Set -->
+            <Item Cat="7" Index="11" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="11" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="11" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="11" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="11" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Wind Set -->
+            <Item Cat="7" Index="12" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="12" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="12" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="12" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="12" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Guardian Set -->
+            <Item Cat="7" Index="14" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="14" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="14" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="14" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="14" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== SUMMONER ===================== -->
+<!-- Mistery Set -->
+            <Item Cat="7" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Red Wing Set -->
+            <Item Cat="7" Index="40" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="40" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="40" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="40" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="40" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Ancient Set -->
+            <Item Cat="7" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="39" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== RAGE FIGHTER ===================== -->
+<!-- Sacred Fire Set -->
+            <Item Cat="7" Index="59" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="59" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="59" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="0" Index="32" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="59" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Holy Storm Set -->
+            <Item Cat="7" Index="60" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="60" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="60" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="0" Index="33" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="60" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== MAGIC GLADIATOR ===================== -->
+<!-- Storm Crow Set -->
+            <Item Cat="8" Index="15" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="15" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="15" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="15" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Thunder Hawk Set -->
+            <Item Cat="8" Index="20" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="20" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="20" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="20" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Hurricane Set -->
+            <Item Cat="8" Index="23" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="23" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="23" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="23" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Valiant Set -->
+            <Item Cat="8" Index="37" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="37" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="37" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="37" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== DARK LORD ===================== -->
+<!-- Light Plate Set -->
+            <Item Cat="7" Index="25" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="25" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="25" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="25" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="25" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Adamantine Set -->
+            <Item Cat="7" Index="26" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="26" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="26" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="26" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="26" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Dark Steel Set -->
+            <Item Cat="7" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Dark Master Set -->
+            <Item Cat="7" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="27" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== GROW LANCER ===================== -->
+<!-- Robust Set -->
+            <Item Cat="7" Index="91" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="91" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="91" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="91" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="91" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Gru(*kek*) Hill Set -->
+            <Item Cat="7" Index="92" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="92" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="92" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="92" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="92" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Princie Set -->
+            <Item Cat="7" Index="93" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="93" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="93" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="93" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="93" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Hirat Set -->
+            <Item Cat="7" Index="94" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="94" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="94" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="94" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="94" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== RUNE MAGE ===================== -->
+<!-- Rune Padded Set -->
+            <Item Cat="7" Index="116" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="116" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="116" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="116" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="116" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Rune Sphinx Set -->
+            <Item Cat="7" Index="117" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="117" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="117" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="117" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="117" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Rune Legendary Set -->
+            <Item Cat="7" Index="118" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="118" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="118" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="118" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="118" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Kenaz Set -->
+            <Item Cat="7" Index="119" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="119" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="119" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="119" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="119" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== SLAYER ===================== -->
+<!-- Slayer Red Wing Set -->
+            <Item Cat="7" Index="174" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="174" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="174" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="174" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="174" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Slayer Ancient Set -->
+            <Item Cat="7" Index="175" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="175" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="175" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="175" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="175" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Slayer Demonic Set -->
+            <Item Cat="7" Index="176" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="176" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="176" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="176" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="176" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Nightwing Set -->
+            <Item Cat="7" Index="177" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="177" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="177" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="177" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="177" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+
+<!-- ===================== GUN CRUSHER ===================== -->
+<!-- Leather Gunner Set -->
+            <Item Cat="7" Index="206" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="206" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="206" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="206" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="206" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Scale Gunner Set -->
+            <Item Cat="7" Index="207" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="207" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="207" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="207" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="207" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Round Gunner Set -->
+            <Item Cat="7" Index="208" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="208" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="208" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="208" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="208" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== WHITE WIZARD ===================== -->
+<!-- Leather Gunner Set -->
+            <Item Cat="7" Index="235" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="235" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="235" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="235" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="235" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Scale Gunner Set -->
+            <Item Cat="7" Index="236" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="236" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="236" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="236" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="236" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== MAGE ===================== -->
+<!-- Mage Pad Set -->
+            <Item Cat="7" Index="252" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="252" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="252" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="252" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="252" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Mage Sphinx Set -->
+            <Item Cat="7" Index="253" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="253" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="253" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="253" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="253" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Mage Legendary Set -->
+            <Item Cat="7" Index="254" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="254" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="254" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="254" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="254" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Mage Legendary Set -->
+            <Item Cat="7" Index="255" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="255" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="255" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="255" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="255" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- ===================== ILLUSION KNIGHT ===================== -->
+<!-- Illusion Knight Scale Set -->
+            <Item Cat="7" Index="300" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="300" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="300" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="300" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="300" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Illusion Knight Iron Plate Set -->
+            <Item Cat="7" Index="301" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="301" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="301" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="301" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="301" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Illusion Knight Steel Plate Set -->
+            <Item Cat="7" Index="302" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="302" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="302" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="302" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="302" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+<!-- Illusion Knight Steel Plate Set -->
+            <Item Cat="7" Index="303" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="8" Index="303" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="9" Index="303" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="10" Index="303" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+            <Item Cat="11" Index="303" ItemLevelMin="0" ItemMaxLevel="15" Skill="1" Luck="1" Option="7" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0"/>
+</DropAllow>
+</ItemBag>

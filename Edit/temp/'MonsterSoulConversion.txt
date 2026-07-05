@@ -1,0 +1,52 @@
+0						
+3						
+end						
+1						
+1	14	460	1	
+2	14	461	1	
+3	14	462	1	
+4	14	463	1	
+5	14	464	1	
+end						
+2						
+1						
+0	91	586	500	450000	"Acheron"	
+1	91	589	500	450000	"Acheron"	
+2	63	480	500	450000	"Vulcanus"	
+3	29	271	500	450000	"Kalima"	
+4	36	331	500	450000	"Kalima"	
+5	33	308	500	450000	"Aida"	
+end						
+2						
+0	37	553	500	450000	"Kanturu"	
+1	81	575	500	450000	"Karutan 2"	
+2	57	562	500	450000	"Raklion"	
+3	56	557	500	450000	"Swamp Of Peace"	
+4	112	730	500	450000	"Ferea"	
+end						
+3						
+0	113	743	500	450000	"Nixies Lake"	
+1	116	767	500	450000	"DeepDungeon1"	
+2	117	771	500	450000	"DeepDungeon2"	
+3	118	768	500	450000	"DeepDungeon3"	
+4	119	769	500	450000	"DeepDungeon4"	
+5	120	775	500	450000	"DeepDungeon5"	
+6	122	786	500	450000	"Swamp of Darkness"	
+7	123	810	500	450000	"Kubera Mine"	
+8	128	832	500	450000	"Abyss of Atlans 1"	
+end						
+4						
+0	131	845	500	450000	"Scorched Canyon"	
+1	132	859	500	450000	"Red Smoke Icarus"	
+2	133	867	500	450000	"Arenil Temple"	
+3	134	875	500	450000	"Ashen Aida"	
+4	136	895	500	450000	"Blaze Kethotum"	
+end						
+5						
+0	137	905	500	450000	"Kanturu Undergrounds"	
+1	138	911	500	450000	"Ignis Volcano"	
+2	140	926	500	450000	"Bloody Tarkan"	
+3	141	942	500	450000	"Tormenta Island"	
+4	142	955	500	450000	"Twisted Karutan"	
+end						
+end						

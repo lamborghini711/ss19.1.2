@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==          File Name: CharacterMaxLevelReward            ==
+// ============================================================
+-->
+
+<CharacterMaxLevelReward>
+    <Reward Class="-1" MaxLevel="950" ItemCat="16" ItemIndex="69" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/>  <!--Prince-->
+	<Reward Class="-1" MaxLevel="1000" ItemCat="16" ItemIndex="70" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/> <!--King Reksmilon-->
+	<Reward Class="-1" MaxLevel="1050" ItemCat="16" ItemIndex="107" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Great Elf Kara-->
+	<Reward Class="-1" MaxLevel="1100" ItemCat="16" ItemIndex="108" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Great Mage Etramu--> 
+	<Reward Class="-1" MaxLevel="1150" ItemCat="16" ItemIndex="138" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Fairy Queen Runedil-->
+	<Reward Class="-1" MaxLevel="1200" ItemCat="16" ItemIndex="139" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Karein-->
+    <Reward Class="-1" MaxLevel="1250" ItemCat="16" ItemIndex="150" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Purification Elpis-->
+    <Reward Class="-1" MaxLevel="1300" ItemCat="16" ItemIndex="151" ItemLevel="0" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Magic Gladiator Muren Rexmilon--> 
+    <Reward Class="-1" MaxLevel="1350" ItemCat="16" ItemIndex="164" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Kundum and Lemuria-->f 
+	<Reward Class="-1" MaxLevel="1400" ItemCat="16" ItemIndex="166" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Elemental Elf-->
+	<Reward Class="-1" MaxLevel="1450" ItemCat="16" ItemIndex="167" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Illusion Knight Jacquard-->
+    <Reward Class="-1" MaxLevel="1500" ItemCat="16" ItemIndex="168" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/><!--Rage Fighter-->
+    <Reward Class="-1" MaxLevel="1550" ItemCat="16" ItemIndex="169" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/> 
+    <Reward Class="-1" MaxLevel="1600" ItemCat="16" ItemIndex="170" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/> 
+    <Reward Class="-1" MaxLevel="1650" ItemCat="16" ItemIndex="158" ItemLevel="1" Dur="0" Skill="0" Luck="0" Option="0" Exl="0" Ancient="0" Harmony="0" Option380="0" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" SocketBonus="0" Flags="0"/> 
+</CharacterMaxLevelReward>

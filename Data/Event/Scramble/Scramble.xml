@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+// ============================================================
+// == 				MUONLINE SERVER EMULATOR				 ==
+// == 				   POWERED BY DV-Team				 	 ==
+// ==               File Name: ScrambleWord                  ==
+// ============================================================
+
+NOT WORKING
+-->
+
+<Scramble Enabled="1" Reward="Scramble" RepeatWordCount="2" TotalWordCount="5" >
+
+	<Schedule>
+		<Start Hour="1" Minute="10" Duration="10" />
+		<Start Hour="12" Minute="0" Duration="10" />
+		<Start Hour="15" Minute="0" Duration="10" />
+		<Start Hour="18" Minute="0" Duration="10" />
+		<Start Hour="23" Minute="0" Duration="10" />
+	</Schedule>
+	
+	<ScrambleWord>
+		<Data Word="Flameberge" />
+		<Data Word="Daybreak" />
+		<Data Word="BloodangelSword" />
+		<Data Word="CycloneSword" />
+		<Data Word="BoneBlade" />
+		<Data Word="Katana" />
+		<Data Word="Rapier" />
+		<Data Word="ExplosionBlade" />
+		<Data Word="Daybreak" />
+		<Data Word="Asura" />
+		<Data Word="LightningSword" />
+		<Data Word="RuneBastardSword" />
+		<Data Word="GiantSword" />
+		<Data Word="XenoBlade" />
+		<Data Word="SwordofDestruction" />
+		<Data Word="DarkBreaker" />
+		<Data Word="KnightBlade" />
+	</ScrambleWord>
+</Scramble>

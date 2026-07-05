@@ -1,0 +1,145 @@
+
+<InvasionMonsters>
+	<Invasion Index="0">
+		<Monster WorldID="0" ID="135" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="100" ItemBag="Invasion - White Wizard" 		Count="1" />
+		<Monster WorldID="0" ID="136" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster WorldID="0" ID="137" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster WorldID="2" ID="135" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="1" AttackPercent="100" ItemBag="Invasion - White Wizard" 		Count="1" />
+		<Monster WorldID="2" ID="136" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster WorldID="2" ID="137" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster WorldID="3" ID="135" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="1" AttackPercent="100" ItemBag="Invasion - White Wizard" 		Count="1" />
+		<Monster WorldID="3" ID="136" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+		<Monster WorldID="3" ID="137" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="100" ItemBag="Invasion - White Wizard: Orc" 	Count="15" />
+	</Invasion>
+	<Invasion Index="1">	 	
+		<Monster WorldID="4"  ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />
+		<Monster WorldID="7"  ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />
+		<Monster WorldID="8"  ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />		
+		<Monster WorldID="33" ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit" 	Count="10" />
+		<Monster WorldID="37" ID="413" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4"  Boss="0" AttackPercent="0" ItemBag="Blue Event - Lunar Rabbit"	Count="10" />
+    </Invasion>
+
+	<Invasion Index="2">	
+		<Monster WorldID="0" ID="55"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="100" ItemBag="Underground - Skeleton King" 	Count="3" />
+		<Monster WorldID="0" ID="56"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="100" ItemBag="" 								Count="9" />
+		<Monster WorldID="2" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="1" AttackPercent="100" ItemBag="" 								Count="30" />
+		<Monster WorldID="2" ID="55"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="1" AttackPercent="100" ItemBag="Underground - Skeleton King" 	Count="3" />
+		<Monster WorldID="2" ID="56"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="" 							 	Count="9" />
+		<Monster WorldID="3" ID="55"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="100" ItemBag="Underground - Skeleton King" 	Count="3" />		
+		<Monster WorldID="3" ID="56"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="100" ItemBag="" 								Count="9" />	
+	 </Invasion>
+
+	<Invasion Index="3">	
+		<Monster WorldID="4"  ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />		
+		<Monster WorldID="7"  ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+		<Monster WorldID="8"  ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+		<Monster WorldID="33" ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+		<Monster WorldID="37" ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+		<Monster WorldID="57" ID="365" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5" Boss="0" AttackPercent="0" ItemBag="New Year Event" Count="3" />
+	 </Invasion>
+
+	<Invasion Index="4">	
+		<Monster WorldID="0" ID="42"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="1" />
+		<Monster WorldID="0" ID="44"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="3" />
+		<Monster WorldID="2" ID="42"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="1" />
+		<Monster WorldID="2" ID="44"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="3" />		
+		<Monster WorldID="3" ID="42"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="1" />
+		<Monster WorldID="3" ID="44"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="Red Dragon" Count="3" />
+	 </Invasion>
+
+	<Invasion Index="5">				
+		<Monster WorldID="4"  ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="5" />
+		<Monster WorldID="7"  ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="5" />
+		<Monster WorldID="8"  ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="5" />
+		<Monster WorldID="32" ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="5" />		
+		<Monster WorldID="37" ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="5" />
+		<Monster WorldID="57" ID="463" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5" Boss="0" AttackPercent="0" ItemBag="Summer Event" Count="5" />	
+	</Invasion>
+
+	<Invasion Index="6">
+		<Monster WorldID="0" ID="466" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="Invasion - Evil Santa: Goblin" Count="9" />
+		<Monster WorldID="0" ID="476" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1" Boss="0" AttackPercent="100" ItemBag="Evil Santa" 					Count="1" />
+		<Monster WorldID="2" ID="466" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="100" ItemBag="Invasion - Evil Santa: Goblin"	Count="9" />
+		<Monster WorldID="2" ID="476" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="100" ItemBag="Evil Santa" 					Count="1" />		
+		<Monster WorldID="3" ID="466" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="2" AttackPercent="100" ItemBag="Invasion - Evil Santa: Goblin" Count="9" />
+		<Monster WorldID="3" ID="476" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2" Boss="2" AttackPercent="100" ItemBag="Evil Santa" 					Count="1" />	
+	</Invasion>
+
+	<Invasion Index="7">
+		
+	</Invasion>
+
+	<Invasion Index="8">	
+		<Monster ID="43"  WorldID="0"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Budge Dragon"  Count="5" />
+		<Monster ID="79"  WorldID="0"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Dragon" 	    Count="10" />
+		<Monster ID="493" WorldID="1"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Knight" 	    Count="5" />		
+		<Monster ID="43"  WorldID="2"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Budge Dragon"  Count="10" />		
+		<Monster ID="53"  WorldID="2"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Titan" 		Count="3" />
+		<Monster ID="54"  WorldID="2"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Soldier" 	    Count="3" />		
+		<Monster ID="43"  WorldID="3"  StartX="184" StartY="40" EndX="190" EndY="50" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Budge Dragon"  Count="5" />
+		<Monster ID="78"  WorldID="3"  StartX="184" StartY="40" EndX="190" EndY="50" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Goblin" 	    Count="5" />		
+		<Monster ID="494" WorldID="4"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Devil" 	    Count="5" />		
+		<Monster ID="80"  WorldID="7"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Lizard King"   Count="5" />
+		<Monster ID="81"  WorldID="7"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Vepar" 	    Count="5" />
+		<Monster ID="82"  WorldID="8"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Tantalo" 	    Count="5" />
+		<Monster ID="83"  WorldID="8"  StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Wheel" 	    Count="5" />			
+		<Monster ID="496" WorldID="10" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Crust" 	    Count="5" />
+		<Monster ID="495" WorldID="33" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Stone Golem"   Count="5" />	
+		<Monster ID="497" WorldID="37" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Satyros" 	    Count="5" />		
+		<Monster ID="498" WorldID="38" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Twin Tail"     Count="5" />
+		<Monster ID="501" WorldID="38" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Great Dragon"  Count="5" />		
+		<Monster ID="502" WorldID="51" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Rabbit"   	    Count="6" />
+		<Monster ID="500" WorldID="56" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Napin" 	    Count="5" />
+		<Monster ID="499" WorldID="57" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="1" AttackPercent="0" ItemBag="Golden - Iron Knight"   Count="5" />	
+	</Invasion>
+
+	<Invasion Index="9">
+		
+	</Invasion>
+
+	<Invasion Index="10">		
+		<Monster   WorldID="0"  ID="674" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0"   Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster   WorldID="0"  ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="2"  ID="674" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2"   Boss="0" AttackPercent="0" ItemBag="" Count="4" />		
+		<Monster   WorldID="2"  ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />	
+		<Monster   WorldID="2"  ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="2"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="3"  ID="674" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3"   Boss="0" AttackPercent="0" ItemBag="" Count="4" />				
+		<Monster   WorldID="3"  ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="3"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="4"  ID="675" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4"   Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster   WorldID="4"  ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="4"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="10" ID="675" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5"   Boss="0" AttackPercent="0" ItemBag="" Count="4" />				
+		<Monster   WorldID="10" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="5"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />
+		<Monster   WorldID="28" ID="675" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="6"   Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster   WorldID="28" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="6"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="33" ID="675" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="7"   Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster   WorldID="33" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="7"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="36" ID="676" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="11"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster   WorldID="36" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="11"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="37" ID="676" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="10"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />			
+		<Monster   WorldID="37" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="10"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="51" ID="674" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1"   Boss="0" AttackPercent="0" ItemBag="" Count="4" />		
+		<Monster   WorldID="51" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="1"   Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="56" ID="676" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="9"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />		
+		<Monster   WorldID="56" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="9"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+		<Monster   WorldID="57" ID="676" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="8"  Boss="0" AttackPercent="0" ItemBag="" Count="4" />
+		<Monster   WorldID="57" ID="677" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="8"  Boss="0" AttackPercent="0" ItemBag="" Count="1" />		
+	 </Invasion>
+	 
+	<Invasion Index="11">
+	
+	</Invasion>
+
+	<Invasion Index="12">
+		<Monster WorldID="0"  ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster WorldID="1"  ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster WorldID="2"  ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster WorldID="3"  ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />		
+		<Monster WorldID="4"  ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster WorldID="7"  ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />		
+		<Monster WorldID="8"  ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />		
+		<Monster WorldID="33" ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />	
+		<Monster WorldID="37" ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />
+		<Monster WorldID="51" ID="652" StartX="1" StartY="1" EndX="255" EndY="255" Dir="-1" MoveDistance="30" Group="0" Boss="0" AttackPercent="0" ItemBag="" Count="3" />			
+	</Invasion>
+
+</InvasionMonsters>
