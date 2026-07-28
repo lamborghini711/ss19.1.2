@@ -15,14 +15,14 @@
 	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
 	<DropSection UseMode="-1" DisplayName="Section 1">
 		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" AC="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
-			<Drop Rate="800" Type="0" Count="2">
+			<Drop Rate="400" Type="0" Count="1">
 				<Item Cat="14" Index="13" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Bless"/>
 				<Item Cat="14" Index="14" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Soul"/>
 				<Item Cat="14" Index="16" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Life"/>
 				<Item Cat="14" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Creation"/>
 				<Item Cat="14" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Harmony"/>
 			</Drop>
-			<Drop Rate="50" Type="0" Count="1">
+			<Drop Rate="25" Type="0" Count="1">
 				<Item Cat="0" Index="62" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Soul Sword"/>
 				<Item Cat="0" Index="63" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Soul Magic Sword"/>
 				<Item Cat="0" Index="64" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Soul Claws"/>
@@ -33,7 +33,7 @@
 				<Item Cat="6" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="El Hazard Shield"/>
 				<Item Cat="6" Index="41" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="1" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Constant Shield"/>
 			</Drop>
-			<Drop Rate="30" Type="0" Count="1">
+			<Drop Rate="15" Type="0" Count="1">
 				<Item Cat="7" Index="129" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Blue Eye Runist Helm"/>
 				<Item Cat="7" Index="164" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Blue Eye Knight Helm"/>
 				<Item Cat="7" Index="165" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Blue Eye Wizard Helm"/>
@@ -87,7 +87,7 @@
 				<Item Cat="11" Index="172" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Blue Eye Elf Boots (B)"/>
 				<Item Cat="11" Index="173" ItemMinLevel="0" ItemMaxLevel="0" Durability="15" Skill="0" Luck="-1" Option="0" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Blue Eye Magic Boots (B)"/>
 			</Drop>
-			<Drop Rate="80" Type="0" Count="1">
+			<Drop Rate="40" Type="0" Count="1">
 				<Item Cat="12" Index="212" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Arca's Prophecy"/>
 				<Item Cat="12" Index="213" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Antonia's Sword"/>
 				<Item Cat="12" Index="214" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="-2" ElementalItem="-1" Name="Kundun's Seal Scroll"/>

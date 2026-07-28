@@ -15,12 +15,12 @@
 	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX"/>
 	<DropSection UseMode="-1" DisplayName="Section 1">
 		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" AC="1" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" MapNumber="-1">
-			<Drop Rate="8000" Type="0" Count="1">
+			<Drop Rate="500" Type="0" Count="1">
 				<Item Cat="14" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="3" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Harmony"/>
 				<Item Cat="14" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="5" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Harmony"/>
 				<Item Cat="14" Index="42" ItemMinLevel="0" ItemMaxLevel="0" Durability="7" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Jewel of Harmony"/>
 			</Drop>
-			<Drop Rate="1100" Type="0" Count="1">
+			<Drop Rate="550" Type="0" Count="1">
 				<Item Cat="7" Index="355" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Temple Guard Knight Helmet"/>
 				<Item Cat="7" Index="356" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Temple Guard Wizard Helmet"/>
 				<Item Cat="7" Index="357" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Temple Guard Elf Helmet"/>
@@ -104,11 +104,11 @@
 				<Item Cat="11" Index="370" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Temple Guard Mage Boots"/>
 				<Item Cat="11" Index="371" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="-1" Option="1" Exc="-2" SetItem="0" SocketCount="0" ElementalItem="0" Name="Temple Guard Illusion Knight Boots"/>
 			</Drop>
-			<Drop Rate="500" Type="0" Count="1">
+			<Drop Rate="250" Type="0" Count="1">
 				<Item Cat="13" Index="466" ItemMinLevel="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Garuda's Flame"/>
 				<Item Cat="20" Index="158" ItemMinLevel="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Uriel's Feather"/>
 			</Drop>
-			<Drop Rate="400" Type="0" Count="1">
+			<Drop Rate="200" Type="0" Count="1">
 				<Item Cat="20" Index="277" ItemMinLevel="0" Durability="1" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="[Bound] Temple Guard Reinforcement Stone"/>
 			</Drop>
 		</DropAllow>
