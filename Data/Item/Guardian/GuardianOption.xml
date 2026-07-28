@@ -102,6 +102,6 @@
 		<Value Type="6" Group="4" ID="0" Formula1="56" ValueType="0" ID2="4" Formula2="60" ValueType2="0"/>
 	</GuardianEliteOptionValue>
 	
-	<OptionRate One="10000" Two="10000" Three="10000" Four="10000" />
+	<OptionRate One="0" Two="0" Three="0" Four="10000" />
 	
 </GuardianOptionData>

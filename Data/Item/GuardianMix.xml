@@ -149,7 +149,7 @@
 		<Mix ReqGuardianNum="6" Name="Guardian Elite Opt Change Seal" SubItemCat="14" SubItemIndex="470" MaxOptCount="5"/>
 	</GuardianItemOptChange>
 	
-	<GuardianItemUpgrade GuardianRareRate="5">
+	<GuardianItemUpgrade GuardianRareRate="50">
 		<Mix ID="0" Name="Ghost Horse Upgrade Ice Dragon" MainItemCat="12" MainItemIndex="471" MainItemLevel="11" MainItemDur="1" SubItemCat1="14" SubItemIndex1="498" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="600000" ResultItemCat="12" ResultItemIndex="483" ResultItemLevel="0"/>
 		<Mix ID="1" Name="Ghost Horse Upgrade Ice Dragon" MainItemCat="12" MainItemIndex="471" MainItemLevel="12" MainItemDur="1" SubItemCat1="14" SubItemIndex1="498" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="700000" ResultItemCat="12" ResultItemIndex="483" ResultItemLevel="0"/>
 		<Mix ID="2" Name="Ghost Horse Upgrade Ice Dragon" MainItemCat="12" MainItemIndex="471" MainItemLevel="13" MainItemDur="1" SubItemCat1="14" SubItemIndex1="498" SubItemDur1="1" SubItemCat2="14" SubItemIndex2="13" SubItemDur2="20" SubItemCat3="14" SubItemIndex3="14" SubItemDur3="20" SubItemCat4="12" SubItemIndex4="15" SubItemDur4="1" SubItemCat5="14" SubItemIndex5="22" SubItemDur5="1" ReqMoney="0" SuccessRate="800000" ResultItemCat="12" ResultItemIndex="483" ResultItemLevel="0"/>
