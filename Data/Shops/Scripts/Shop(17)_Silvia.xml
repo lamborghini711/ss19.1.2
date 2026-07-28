@@ -55,6 +55,8 @@
 		<Item ItemCat="13" ItemIndex="007" ItemLevel="00" ItemDur="001" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="37" /> <!-- 弓箭佣兵  -->
 		<Item ItemCat="13" ItemIndex="007" ItemLevel="01" ItemDur="001" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="38" /> <!-- 标枪佣兵 -->
 		<Item ItemCat="12" ItemIndex="288" ItemLevel="01" ItemDur="001" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="80000000" ID="38" /> <!-- 标枪佣兵 -->
+		<Item ItemCat="13" ItemIndex="047" ItemLevel="00" ItemDur="010" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="39" /> <!-- Blood Castle Ticket (Cat=13, Idx=47), Dur=10 -->
+		<Item ItemCat="13" ItemIndex="046" ItemLevel="00" ItemDur="010" ItemSkill="0" ItemLuck="0" ItemOption="0" ItemExel="-1" ItemAncient="0" Socket1="65535" Socket2="65535" Socket3="65535" Socket4="65535" Socket5="65535" Price="0" ID="40" /> <!-- Devil Square Ticket (Cat=13, Idx=46), Dur=10 -->
 	</Tab>
 	<Tab Id="2">
 		<!-- Insert shop data here -->
@@ -121,8 +123,8 @@
 	</Tab>
 	<Tab Id="5">
 		<!-- Insert shop data here -->
-		<Item ItemCat="12" ItemIndex="40" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="7" ItemExel="63" ItemAncient="1" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" Price="10" ID="4" />
-		<Item ItemCat="12" ItemIndex="43" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="7" ItemExel="63" ItemAncient="1" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" Price="10" ID="4" />
+		<!-- <Item ItemCat="12" ItemIndex="40" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="7" ItemExel="63" ItemAncient="1" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" Price="10" ID="4" />
+		<Item ItemCat="12" ItemIndex="43" ItemLevel="0" ItemDur="0" ItemSkill="1" ItemLuck="1" ItemOption="7" ItemExel="63" ItemAncient="1" Socket1="0" Socket2="0" Socket3="0" Socket4="0" Socket5="0" Price="10" ID="4" /> -->
 
 	</Tab>
 </ShopItem>
