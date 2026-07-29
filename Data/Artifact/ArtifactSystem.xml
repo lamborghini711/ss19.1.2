@@ -19,7 +19,7 @@
 		<Item MapID="0" Type="4" Unk1="4" Cat="20" Index="99" Rate="168000" />
 		<Item MapID="0" Type="5" Unk1="5" Cat="20" Index="100" Rate="19200" />
 		<Item MapID="0" Type="6" Unk1="6" Cat="20" Index="101" Rate="19200" />
-		<Item MapID="0" Type="7" Unk1="6" Cat="20" Index="102" Rate="480" />
+		<Item MapID="0" Type="7" Unk1="6" Cat="20" Index="102" Rate="5000" />
 	</ArtifactItem>
 
 	<OptionSelect>

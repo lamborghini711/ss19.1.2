@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ItemBag>
+	<BagConfig Name="Monster_Cursed_Santa" ItemRate="0" SetItemRate="0" SetItemCount="0" MasterySetItemInclude="0" MoneyDrop="0" IsPentagramForBeginnersDrop="0" PartyDropRate="0" PartyOneDropOnly="0" PartyShareType="0" BagUseEffect="-1" BagUseRate="10000" />
+	<SummonBook Enable="0" DropRate="0" ItemCat="0" ItemIndex="0" />
+	<AddCoin Enable="1" CoinType="0" CoinValue="40" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+</ItemBag>

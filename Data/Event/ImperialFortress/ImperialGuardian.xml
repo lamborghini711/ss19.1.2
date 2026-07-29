@@ -36,7 +36,7 @@
 // STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
-<ImperialGuardian Enable="1" LootTime="60" PKCheck="1" PKLevelMax="10" CompleteSecromiconMixReqMoney="1000000" EventEnterCount="10" >
+<ImperialGuardian Enable="1" LootTime="60" PKCheck="1" PKLevelMax="10" CompleteSecromiconMixReqMoney="1000000" EventEnterCount="1" >
 	
 	<Time StandBy="10" RoundDuration="1200" />
 
