@@ -6,21 +6,9 @@
 	<Ruud GainRate="0" MinValue="1" MaxValue="10" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
 	<DropSection UseMode="-1" DisplayName="Section 1">
 		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" AC="1" PlayerMinLevel="50" PlayerMaxLevel="399" MapNumber="-1">
-			<Drop Rate="10000" Type="0" Count="1">
-				<Item Cat="8" Index="21" ItemMinLevel="0" ItemMaxLevel="3" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Great Dragon Armor" />
-				<Item Cat="7" Index="22" ItemMinLevel="0" ItemMaxLevel="3" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Helm" />
-				<Item Cat="8" Index="22" ItemMinLevel="0" ItemMaxLevel="3" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Armor" />
-				<Item Cat="9" Index="22" ItemMinLevel="0" ItemMaxLevel="3" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Pants" />
-				<Item Cat="10" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Gloves" />
-				<Item Cat="11" Index="22" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Soul Boots" />
-				<Item Cat="7" Index="24" ItemMinLevel="0" ItemMaxLevel="3" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Red Spirit Helm" />
-				<Item Cat="9" Index="24" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Red Spirit Pants" />
-				<Item Cat="10" Index="24" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Red Spirit Gloves" />
-				<Item Cat="7" Index="28" ItemMinLevel="0" ItemMaxLevel="3" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Mask" />
-				<Item Cat="8" Index="28" ItemMinLevel="0" ItemMaxLevel="3" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Armor" />
-				<Item Cat="9" Index="28" ItemMinLevel="0" ItemMaxLevel="3" Skill="0" Luck="0" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Pants" />
-				<Item Cat="10" Index="28" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Gloves" />
-				<Item Cat="11" Index="28" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="1" Option="1" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Dark Master Boots" />
+			<Drop Rate="10000" Type="0" Count="2">
+				<Item Cat="14" Index="282" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Mastery Box(Minor)" />
+				<Item Cat="14" Index="282" ItemMinLevel="0" ItemMaxLevel="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" ElementalItem="0" Name="Mastery Box(Minor)" />
 			</Drop>
 		</DropAllow>
 		<DropAllow DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1" AC="1" PlayerMinLevel="400" PlayerMaxLevel="599" MapNumber="-1">

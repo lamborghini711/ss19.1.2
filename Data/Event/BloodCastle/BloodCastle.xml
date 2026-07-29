@@ -68,36 +68,79 @@
 <Time ToOpen="3" StandBy="1" PlayDuration="15" ToClose="1" />
 	
 	<Schedule>
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="3" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="3" Minute="40" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="5" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="7" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="8" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="9" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="10" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="11" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="12" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="13" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="14" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="15" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="16" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="17" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="18" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="19" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="20" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="40" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="22" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="22" Minute="40" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="10" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="40" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="10" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="20" Second="-1" />
 		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="0" Minute="40" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="10" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="20" Second="-1" />
 		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="1" Minute="40" Second="-1" />
-		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="10" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="20" Second="-1" />
 		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="2" Minute="40" Second="-1" />
-	</Schedule>
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="3" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="3" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="3" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="4" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="4" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="4" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="5" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="5" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="5" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="6" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="6" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="6" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="7" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="7" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="7" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="8" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="8" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="8" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="9" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="9" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="9" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="10" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="10" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="10" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="11" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="11" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="11" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="12" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="12" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="12" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="13" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="13" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="13" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="14" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="14" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="14" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="15" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="15" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="15" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="16" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="16" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="16" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="17" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="17" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="17" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="18" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="18" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="18" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="19" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="19" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="19" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="20" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="20" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="20" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="21" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="22" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="22" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="22" Minute="40" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="0" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="20" Second="-1" />
+		<Start Year="-1" Month="-1" Day="-1" DayOfWeek="-1" Hour="23" Minute="40" Second="-1" />
+		</Schedule>
 
 	<EntryLevel>
 		<Castle Level="0" MinLevel="50" MaxLevel="399" /> <!-- Blood Castle 1 -->
@@ -130,44 +173,80 @@
 		<Castle Level="6" Multiplier="2.6" /> <!-- Blood Castle 7 -->
 	</RewardExpSettings>
 
-	<EventContributionReward>						
-			<Ground ID="1">			
+	<EventContributionReward>
+			<Ground ID="1">
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
 			</Ground>
 
 			<Ground ID="2">
-				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="2"/>
-				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="2"/>
-				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="2"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
 			</Ground>
-			
+
 			<Ground ID="3">
-				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="2"/>
-				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="2"/>
-				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="2"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
 			</Ground>
-			
+
 			<Ground ID="4">
-				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="2"/>
-				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="2"/>
-				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="2"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
 			</Ground>
-			
+
 			<Ground ID="5">
-				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="3"/>
-				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="3"/>
-				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="3"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
 			</Ground>
-			
+
 			<Ground ID="6">
-				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="3"/>
-				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="3"/>
-				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="3"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
 			</Ground>
-			
+
 			<Ground ID="7">
-				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="3"/>
-				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="3"/>
-				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="3"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="1" ContributionMax="1" RewardItemID="7452" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="2" ContributionMax="2" RewardItemID="7451" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
+				<Reward ContributionMin="3" ContributionMax="3" RewardItemID="7450" Count="1"/>
 			</Ground>
 	</EventContributionReward>
 </BloodCastle>
