@@ -32,82 +32,128 @@
 	<!-- Type to Index -->
 	<InvasionStart>
 		<Invasion Index="0" Name="White Wizard">
-	<Start Duration="30" Hour="0"  Minute="20" DayOfWeek="-1"/>
-		<Start Duration="30" Hour="5"  Minute="20" DayOfWeek="-1"/>
-		<Start Duration="30" Hour="10" Minute="20" DayOfWeek="-1"/>
-		<Start Duration="30" Hour="15" Minute="20" DayOfWeek="-1"/>
-		<Start Duration="30" Hour="20" Minute="20" DayOfWeek="-1"/>
-	</Invasion>
+		<Start Duration="30" Hour="0" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="2" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="4" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="6" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="8" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="10" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="12" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="14" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="16" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="18" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="20" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="22" Minute="0" DayOfWeek="-1"/>
+		</Invasion>
 	
 	<Invasion Index="1" Name="Blue Event">
-		<Start Duration="30" Hour="1"  Minute="45" DayOfWeek="-1" />
-		<Start Duration="30" Hour="5"  Minute="45" DayOfWeek="-1" />
-		<Start Duration="30" Hour="9"  Minute="45" DayOfWeek="-1" />
-		<Start Duration="30" Hour="13" Minute="45" DayOfWeek="-1" />
-		<Start Duration="30" Hour="18" Minute="45" DayOfWeek="-1" />
-		<Start Duration="30" Hour="23" Minute="45" DayOfWeek="-1" />
-	</Invasion>
+		<Start Duration="30" Hour="0" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="2" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="4" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="6" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="8" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="10" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="12" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="14" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="16" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="18" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="20" Minute="45" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="22" Minute="45" DayOfWeek="-1"/>
+		</Invasion>
 		
 		<Invasion Index="2" Name="Death King">
-			<Start Duration="30" Hour="0" Minute="30" DayOfWeek="-1"/>
-			<Start Duration="30" Hour="6" Minute="30" DayOfWeek="-1"/>
-			<Start Duration="30" Hour="12" Minute="30" DayOfWeek="-1"/>
-			<Start Duration="30" Hour="18" Minute="30" DayOfWeek="-1"/>
-			<Start Duration="30" Hour="22" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="0" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="2" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="4" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="6" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="8" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="10" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="12" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="14" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="16" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="18" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="20" Minute="30" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="22" Minute="30" DayOfWeek="-1"/>
 		</Invasion>
 		
 		<Invasion Index="3" Name="New Year Day">
 		</Invasion>
 		
 		<Invasion Index="4" Name="Red Dragon">
-		    <Start Duration="30" Hour="0"  inute="15" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="4"  inute="15" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="8"  inute="15" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="12" inute="15" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="16" inute="15" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="20" inute="15" DayOfWeek="-1" />
+		<Start Duration="30" Hour="0" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="2" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="4" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="6" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="8" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="10" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="12" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="14" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="16" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="18" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="20" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="22" Minute="0" DayOfWeek="-1"/>
 		</Invasion>
 		
 		<Invasion Index="5" Name="Summer">
-		    <Start Duration="30" Hour="0"  Minute="30" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="4"  Minute="30" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="8"  Minute="30" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="12" Minute="30" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="16" Minute="30" DayOfWeek="-1" />
-		    <Start Duration="30" Hour="20" Minute="30" DayOfWeek="-1" />
-	    </Invasion>
+		<Start Duration="30" Hour="0" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="2" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="4" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="6" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="8" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="10" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="12" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="14" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="16" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="18" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="20" Minute="50" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="22" Minute="50" DayOfWeek="-1"/>
+		</Invasion>
 		
 		<Invasion Index="6" Name="Santa Event">
 		</Invasion>
 	
     	<Invasion Index="8" Name="Golden Invasion">
-		    <Start Duration="350" Hour="0"  Minute="0"  DayOfWeek="-1" />
-		    <Start Duration="300" Hour="3"  Minute="0"  DayOfWeek="-1" />
-		    <Start Duration="300" Hour="6"  Minute="0"  DayOfWeek="-1" />
-		    <Start Duration="300" Hour="9"  Minute="0"  DayOfWeek="-1" />
-		    <Start Duration="300" Hour="12" Minute="0"  DayOfWeek="-1" />
-		    <Start Duration="300" Hour="15" Minute="0"  DayOfWeek="-1" />
-		    <Start Duration="300" Hour="17" Minute="0"  DayOfWeek="-1" />
-		    <Start Duration="300" Hour="20" Minute="0"  DayOfWeek="-1" />
-	        <Start Duration="300" Hour="23" Minute="0"  DayOfWeek="-1" />
-    	</Invasion>
+		<Start Duration="300" Hour="0" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="2" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="4" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="6" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="8" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="10" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="12" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="14" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="16" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="18" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="20" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="22" Minute="0" DayOfWeek="-1"/>
+		</Invasion>
 		
 		<Invasion Index="9" Name="Lucky Coin">
 		</Invasion>
 		
 		<Invasion Index="10" Name="Muun Invasion">
-		    <Start Duration="30" Hour="1"  Minute="0" DayOfWeek="-1"  />
-		    <Start Duration="30" Hour="5"  Minute="0" DayOfWeek="-1"  />
-		    <Start Duration="30" Hour="10"  Minute="0" DayOfWeek="-1"  />
-		    <Start Duration="30" Hour="15"  Minute="0" DayOfWeek="-1"  />
-		    <Start Duration="30" Hour="20"  Minute="0" DayOfWeek="-1"  />
+		<Start Duration="30" Hour="0" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="2" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="4" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="6" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="8" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="10" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="12" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="14" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="16" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="18" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="20" Minute="5" DayOfWeek="-1"/>
+		<Start Duration="30" Hour="22" Minute="5" DayOfWeek="-1"/>
 		</Invasion>
 		
 		<Invasion Index="12" Name="Summon the Demons">
-			<Start Duration="300" Hour="0" Minute="0" DayOfWeek="-1"/>
-			<Start Duration="300" Hour="6" Minute="0" DayOfWeek="-1"/>
-			<Start Duration="300" Hour="12" Minute="0" DayOfWeek="-1"/>
-			<Start Duration="300" Hour="18" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="0" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="3" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="6" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="9" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="12" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="15" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="18" Minute="0" DayOfWeek="-1"/>
+		<Start Duration="300" Hour="21" Minute="0" DayOfWeek="-1"/>
 		</Invasion>
 	</InvasionStart>
 	
