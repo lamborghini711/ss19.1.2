@@ -218,4 +218,36 @@
 	<Item ItemCat="20" ItemIndex="508" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Jewel of Wisdom -->
 	<Item ItemCat="20" ItemIndex="277" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Jewel of Wisdom -->
 	
+	<!-- Seed Sphere (Element Rune) stacking, Cat=12 Idx=100 to 129 -->
+	<Item ItemCat="12" ItemIndex="100" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Fire) [Step: 1] -->
+	<Item ItemCat="12" ItemIndex="101" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Water) [Step: 1] -->
+	<Item ItemCat="12" ItemIndex="102" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Ice) [Step: 1] -->
+	<Item ItemCat="12" ItemIndex="103" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Wind) [Step: 1] -->
+	<Item ItemCat="12" ItemIndex="104" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Lightning) [Step: 1] -->
+	<Item ItemCat="12" ItemIndex="105" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Earth) [Step: 1] -->
+	<Item ItemCat="12" ItemIndex="106" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Fire) [Step: 2] -->
+	<Item ItemCat="12" ItemIndex="107" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Water) [Step: 2] -->
+	<Item ItemCat="12" ItemIndex="108" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Ice) [Step: 2] -->
+	<Item ItemCat="12" ItemIndex="109" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Wind) [Step: 2] -->
+	<Item ItemCat="12" ItemIndex="110" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Lightning) [Step: 2] -->
+	<Item ItemCat="12" ItemIndex="111" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Earth) [Step: 2] -->
+	<Item ItemCat="12" ItemIndex="112" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Fire) [Step: 3] -->
+	<Item ItemCat="12" ItemIndex="113" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Water) [Step: 3] -->
+	<Item ItemCat="12" ItemIndex="114" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Ice) [Step: 3] -->
+	<Item ItemCat="12" ItemIndex="115" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Wind) [Step: 3] -->
+	<Item ItemCat="12" ItemIndex="116" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Lightning) [Step: 3] -->
+	<Item ItemCat="12" ItemIndex="117" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Earth) [Step: 3] -->
+	<Item ItemCat="12" ItemIndex="118" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Fire) [Step: 4] -->
+	<Item ItemCat="12" ItemIndex="119" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Water) [Step: 4] -->
+	<Item ItemCat="12" ItemIndex="120" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Ice) [Step: 4] -->
+	<Item ItemCat="12" ItemIndex="121" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Wind) [Step: 4] -->
+	<Item ItemCat="12" ItemIndex="122" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Lightning) [Step: 4] -->
+	<Item ItemCat="12" ItemIndex="123" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Earth) [Step: 4] -->
+	<Item ItemCat="12" ItemIndex="124" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Fire) [Step: 5] -->
+	<Item ItemCat="12" ItemIndex="125" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Water) [Step: 5] -->
+	<Item ItemCat="12" ItemIndex="126" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Ice) [Step: 5] -->
+	<Item ItemCat="12" ItemIndex="127" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Wind) [Step: 5] -->
+	<Item ItemCat="12" ItemIndex="128" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Lightning) [Step: 5] -->
+	<Item ItemCat="12" ItemIndex="129" MaxStack="255" StackOnLoot="1" StackConvertType="-1" StackConvertIndex="-1"/> <!--Seed Sphere (Earth) [Step: 5] -->
+
 </ItemStack>

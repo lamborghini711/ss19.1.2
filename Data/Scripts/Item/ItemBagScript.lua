@@ -408,7 +408,14 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_MONSTER, 641, 0,655)--'Golden Erohin(summon the demmon)') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 642, 0,656)--'Golden Hellmaine(summon the demmon)') -- DropFunction /2/
 	AddItemBag(BAG_MONSTER, 643, 0,657)--'Golden Kundum(summon the demmon)') -- DropFunction /2/
-	
+	AddItemBag(BAG_MONSTER, 704, 0,42)--'Monster_(42)_Red_Dragon') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 705, 0,56)--'Monster_(56)_Death_Bone') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 706, 0,135)--'Monster_(135)_White_Wizard') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 707, 0,136)--'Monster_(136)_Destructive_Ogre_Soldier') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 708, 0,137)--'Monster_(137)_Destructive_Ogre_Archer') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 709, 0,466)--'Monster_(466)_Cursed_Goblin') -- DropFunction /2/
+	AddItemBag(BAG_MONSTER, 710, 0,476)--'Monster_(476)_Cursed_Santa') -- DropFunction /2/
+
 -- ====================================================================
 -- EventBags -- BagType, BagId, EventID, 0
 -- ====================================================================

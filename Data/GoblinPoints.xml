@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
 // ============================================================
 // == 				MUONLINE SERVER EMULATOR				 ==
 // == 				   POWERED BY DV-Team				 	 ==
@@ -8,5 +8,12 @@
 -->
 
 <GoblinPoints>
-    <!-- Example: <Data MonsterLevelMin="" MonsterLevelMax="" PlayerLevelMin="" PlayerLevelMax="" /> -->
+    <!-- Schema guess: MonsterLevel range, Player level filter, GP amount range + rate -->
+    <Data MonsterLevelMin="1"   MonsterLevelMax="49"  PlayerLevelMin="1" PlayerLevelMax="MAX" MinValue="1"  MaxValue="3"  Rate="10000"/>
+    <Data MonsterLevelMin="50"  MonsterLevelMax="99"  PlayerLevelMin="1" PlayerLevelMax="MAX" MinValue="2"  MaxValue="5"  Rate="10000"/>
+    <Data MonsterLevelMin="100" MonsterLevelMax="149" PlayerLevelMin="1" PlayerLevelMax="MAX" MinValue="5"  MaxValue="10" Rate="10000"/>
+    <Data MonsterLevelMin="150" MonsterLevelMax="249" PlayerLevelMin="1" PlayerLevelMax="MAX" MinValue="10" MaxValue="20" Rate="10000"/>
+    <Data MonsterLevelMin="250" MonsterLevelMax="399" PlayerLevelMin="1" PlayerLevelMax="MAX" MinValue="15" MaxValue="30" Rate="10000"/>
+    <Data MonsterLevelMin="400" MonsterLevelMax="700" PlayerLevelMin="1" PlayerLevelMax="MAX" MinValue="25" MaxValue="50" Rate="10000"/>
+    <Data MonsterLevelMin="701" MonsterLevelMax="999" PlayerLevelMin="1" PlayerLevelMax="MAX" MinValue="40" MaxValue="80" Rate="10000"/>
 </GoblinPoints>
