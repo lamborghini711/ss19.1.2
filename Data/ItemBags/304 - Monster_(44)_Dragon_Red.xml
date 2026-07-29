@@ -6,7 +6,7 @@
 	
 	<AddCoin Enable="1" CoinType="0" CoinValue="40" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
 	
-	<Ruud GainRate="10000" MinValue="1" MaxValue="5000" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
+	<Ruud GainRate="10000" MinValue="1" MaxValue="1000" PlayerMinLevel="1" PlayerMaxLevel="MAX" PlayerMinReset="0" PlayerMaxReset="MAX" />
 	
 	<DropSection UseMode="-1" DisplayName="Section 1">
 		
