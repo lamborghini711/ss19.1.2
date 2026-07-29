@@ -7,6 +7,7 @@
     <Package ID="7" Position="6" Name="Party EXP Bonus Item" Description="" DisPlayItem="6759" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
     <Package ID="8" Position="7" Name="Max AG Boost Aura" Description="" DisPlayItem="6760" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
     <Package ID="83" Position="8" Name="Master Seal of Ascension I" Description="" DisPlayItem="6837" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="84" Position="9" Name="Talisman of Ascension III" Description="" DisPlayItem="6835" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Exp Buff" StartDate="20100526194000" EndDate="20190531124000" />
   </Category>
   <Category ID="3">
     <Package ID="12" Position="0" Name="Scroll of Quickness" Description="" DisPlayItem="7240" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Buff Scroll" StartDate="20100526194000" EndDate="20190531124000" />
