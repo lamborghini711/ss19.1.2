@@ -40,7 +40,7 @@ ItemType
 		</Group>
 	</Mix>
 	
-	<Mix ID="2002" ReqMoney = "0" MaxRate1 = "60" MaxRate2 = "50" MaxRate3 = "40" MaxRate4 = "60"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+	<Mix ID="2002" ReqMoney = "0" MaxRate1 = "54" MaxRate2 = "45" MaxRate3 = "36" MaxRate4 = "54"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
 		<Group Index ="1" ><!-- mian meterial -->
 			<Data ItemMin="6344" ItemMax="6358" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
 			<Data ItemMin="6361" ItemMax="6361" LevelMin="0" LevelMax="5" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
@@ -57,7 +57,7 @@ ItemType
 		</Group>
 	</Mix>
 <!-- item upgrade 6 to 7,7 to 8,8 to 9 -->
-	<Mix ID="2003" ReqMoney = "0" MaxRate1 = "60" MaxRate2 = "50" MaxRate3 = "40" MaxRate4 = "60"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+	<Mix ID="2003" ReqMoney = "0" MaxRate1 = "54" MaxRate2 = "45" MaxRate3 = "36" MaxRate4 = "54"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
 		<Group Index ="1" ><!-- mian meterial -->
 			<Data ItemMin="6344" ItemMax="6358" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
 			<Data ItemMin="6361" ItemMax="6361" LevelMin="6" LevelMax="8" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
@@ -74,7 +74,7 @@ ItemType
 		</Group>
 	</Mix>
 <!-- item upgrade 9 to 10 -->
-	<Mix ID="3" ReqMoney = "2000000" MaxRate1 = "60" MaxRate2 = "50" MaxRate3 = "40" MaxRate4 = "60"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+	<Mix ID="3" ReqMoney = "2000000" MaxRate1 = "54" MaxRate2 = "45" MaxRate3 = "36" MaxRate4 = "54"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
 		<Group Index ="1" ><!-- mian meterial -->
 			<Data ItemMin="6344" ItemMax="6358" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
 			<Data ItemMin="6361" ItemMax="6361" LevelMin="9" LevelMax="9" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
@@ -99,7 +99,7 @@ ItemType
 		</Group>
 	</Mix>
 <!-- item upgrade 10 to 11 -->
-	<Mix ID="4" ReqMoney = "4000000" MaxRate1 = "55" MaxRate2 = "40" MaxRate3 = "40" MaxRate4 = "55"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+	<Mix ID="4" ReqMoney = "4000000" MaxRate1 = "50" MaxRate2 = "36" MaxRate3 = "36" MaxRate4 = "50"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
 		<Group Index ="1" ><!-- mian meterial -->
 			<Data ItemMin="6344" ItemMax="6358" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
 			<Data ItemMin="6361" ItemMax="6361" LevelMin="10" LevelMax="10" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
@@ -124,7 +124,7 @@ ItemType
 		</Group>
 	</Mix>
 <!-- item upgrade 11 to 12 -->
-	<Mix ID="22" ReqMoney = "6000000" MaxRate1 = "50" MaxRate2 = "40" MaxRate3 = "40" MaxRate4 = "50"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+	<Mix ID="22" ReqMoney = "6000000" MaxRate1 = "45" MaxRate2 = "36" MaxRate3 = "36" MaxRate4 = "45"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
 		<Group Index ="1" ><!-- mian meterial -->
 			<Data ItemMin="6344" ItemMax="6358" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
 			<Data ItemMin="6361" ItemMax="6361" LevelMin="11" LevelMax="11" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
@@ -149,7 +149,7 @@ ItemType
 		</Group>
 	</Mix>
 <!-- item upgrade 12 to 13 -->
-	<Mix ID="23" ReqMoney = "8000000" MaxRate1 = "45" MaxRate2 = "40" MaxRate3 = "40" MaxRate4 = "45"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+	<Mix ID="23" ReqMoney = "8000000" MaxRate1 = "40" MaxRate2 = "36" MaxRate3 = "36" MaxRate4 = "40"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
 		<Group Index ="1" ><!-- mian meterial -->
 			<Data ItemMin="6344" ItemMax="6358" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
 			<Data ItemMin="6361" ItemMax="6361" LevelMin="12" LevelMax="12" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
@@ -174,7 +174,7 @@ ItemType
 		</Group>
 	</Mix>
 <!-- item upgrade 13 to 14 -->
-	<Mix ID="49" ReqMoney = "10000000" MaxRate1 = "40" MaxRate2 = "40" MaxRate3 = "40" MaxRate4 = "40"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+	<Mix ID="49" ReqMoney = "10000000" MaxRate1 = "36" MaxRate2 = "36" MaxRate3 = "36" MaxRate4 = "36"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
 		<Group Index ="1" ><!-- mian meterial -->
 			<Data ItemMin="6344" ItemMax="6358" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
 			<Data ItemMin="6361" ItemMax="6361" LevelMin="13" LevelMax="13" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
@@ -199,7 +199,7 @@ ItemType
 		</Group>
 	</Mix>
 <!-- item upgrade 14 to 15 -->
-	<Mix ID="50" ReqMoney = "12000000" MaxRate1 = "30" MaxRate2 = "30" MaxRate3 = "30" MaxRate4 = "30"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
+	<Mix ID="50" ReqMoney = "12000000" MaxRate1 = "27" MaxRate2 = "27" MaxRate3 = "27" MaxRate4 = "27"><!-- 1 for normale,2 for exc and set,3 for socket,4 for pentagram -->
 		<Group Index ="1" ><!-- mian meterial -->
 			<Data ItemMin="6344" ItemMax="6358" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
 			<Data ItemMin="6361" ItemMax="6361" LevelMin="14" LevelMax="14" OptMin="0" OptMax="255" CountMin="1" CountMax="1" ItemType="32" />
