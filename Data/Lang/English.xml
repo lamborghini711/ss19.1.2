@@ -676,9 +676,9 @@
 	<Data ID="662" Language="0" Text= "[BLOOD CASTLE] Statue Destroy Bonus: %d"/>
 	<Data ID="663" Language="0" Text= "[BLOOD CASTLE] Remaining Time Bonus: %d"/>
 	<Data ID="664" Language="0" Text= "%d minute(s) left before Devil Square opens"/>
-	<Data ID="665" Language="0" Text= "[DEVIL SQUARE] COMIENZA DESPÚES DE %d MINUTOS(s)"/>
-	<Data ID="666" Language="0" Text= "%d minute(s) PARA QUE COMIENZE EL BLOOD CASTLE"/>
-	<Data ID="667" Language="0" Text= "%d minute(s) PARA QUE COMIENZE EL CHAOS CASTLE"/>
+	<Data ID="665" Language="0" Text= "[DEVIL SQUARE] begins after %d minute(s)"/>
+	<Data ID="666" Language="0" Text= "%d minute(s) left before BLOOD CASTLE opens"/>
+	<Data ID="667" Language="0" Text= "%d minute(s) left before CHAOS CASTLE opens"/>
 	<Data ID="668" Language="0" Text= "%d minutes left before Chaos Castle Survival of the Fittest starts!"/>
 	<Data ID="669" Language="0" Text= "%d minute(s) left before "/>
 	<Data ID="670" Language="0" Text= "RACE starts."/>
