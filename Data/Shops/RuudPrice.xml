@@ -152,48 +152,59 @@
 	<Item ItemCat="12" ItemIndex="91" Price="1000"/>
 	<Item ItemCat="0" ItemIndex="105" Price="100000"/>
 	<!-- All Classes -->
-	<Item ItemCat="16" ItemIndex="42" Price="75000"/>
-	<Item ItemCat="14" ItemIndex="341" Price="50000"/>
-	<Item ItemCat="14" ItemIndex="364" Price="5000"/>
-	<Item ItemCat="14" ItemIndex="384" Price="1000"/>
-	<Item ItemCat="14" ItemIndex="386" Price="100000"/>
-	<Item ItemCat="14" ItemIndex="389" Price="50000"/>
-	<Item ItemCat="14" ItemIndex="415" Price="50000"/>
-	<Item ItemCat="14" ItemIndex="416" Price="100000"/>
-	<Item ItemCat="12" ItemIndex="407" Price="1000"/>
-	<Item ItemCat="12" ItemIndex="409" Price="75000"/>
-	<Item ItemCat="14" ItemIndex="390"  Price="2500"/>
-	<Item ItemCat="14" ItemIndex="450" Price="100000"/>
-	<Item ItemCat="14" ItemIndex="449" Price="50000"/>
-	<Item ItemCat="14" ItemIndex="495" Price="100000"/>
-	<Item ItemCat="14" ItemIndex="502" Price="100000"/>
-	<Item ItemCat="14" ItemIndex="501" Price="50000"/>
-	<Item ItemCat="14" ItemIndex="458" Price="25000"/>
-	<Item ItemCat="14" ItemIndex="494" Price="50000"/>
-	<Item ItemCat="14" ItemIndex="460" Price="400"/>
-	<Item ItemCat="14" ItemIndex="461" Price="500"/>
-	<Item ItemCat="14" ItemIndex="462" Price="600"/>
-	<Item ItemCat="14" ItemIndex="463" Price="700"/>
-	<Item ItemCat="14" ItemIndex="464" Price="800"/>
-	<Item ItemCat="14" ItemIndex="497" Price="25000"/>
-	<Item ItemCat="20" ItemIndex="77" Price="25000"/>
-	<Item ItemCat="14" ItemIndex="498" Price="50000"/>
-	<Item ItemCat="14" ItemIndex="510" Price="50000"/>
-	<Item ItemCat="12" ItemIndex="509" Price="30000"/>
-	<Item ItemCat="12" ItemIndex="510" Price="20000"/>
-	<Item ItemCat="12" ItemIndex="82" Price="100000"/>
-	<Item ItemCat="12" ItemIndex="81" Price="50000"/>
-	<Item ItemCat="20" ItemIndex="83" Price="25000"/>
-	<Item ItemCat="20" ItemIndex="84" Price="50000"/>
-	<Item ItemCat="12" ItemIndex="85" Price="50000"/>
-	<Item ItemCat="12" ItemIndex="86" Price="100000"/>
-	<Item ItemCat="20" ItemIndex="112" Price="25000"/>
-	<Item ItemCat="20" ItemIndex="119" Price="50000"/>
-	<Item ItemCat="12" ItemIndex="96" Price="50000"/>
-	<Item ItemCat="12" ItemIndex="92" Price="100000"/>
-	<Item ItemCat="20" ItemIndex="159" Price="50000"/>
-	<Item ItemCat="20" ItemIndex="161" Price="1200"/>
-	<Item ItemCat="20" ItemIndex="253" Price="50000"/>
-	<Item ItemCat="20" ItemIndex="257" Price="25000"/>
-	<Item ItemCat="12" ItemIndex="97" Price="100000"/>
+	<Item ItemCat="16" ItemIndex="42" Price="75000"/>   <!-- Chef Chicken (Evolved) -->
+	<!-- Anvil (up VK Ruud tier cao) -->
+	<Item ItemCat="14" ItemIndex="386" Price="100000"/> <!-- Darkangel Anvil -->
+	<Item ItemCat="14" ItemIndex="416" Price="150000"/> <!-- Holyangel Anvil -->
+	<Item ItemCat="14" ItemIndex="450" Price="200000"/> <!-- Soul Anvil -->
+	<Item ItemCat="14" ItemIndex="495" Price="250000"/> <!-- Blue Eye Anvil -->
+	<Item ItemCat="14" ItemIndex="502" Price="300000"/> <!-- Silver Heart Anvil -->
+	<Item ItemCat="12" ItemIndex="82" Price="350000"/>  <!-- Manticore Anvil -->
+	<Item ItemCat="12" ItemIndex="86" Price="400000"/>  <!-- Brilliant Anvil -->
+	<Item ItemCat="12" ItemIndex="92" Price="450000"/>  <!-- Apocalypse Anvil -->
+	<Item ItemCat="12" ItemIndex="97" Price="500000"/>  <!-- Lightning Anvil -->
+	<!-- Soul (nguyen lieu ep Anvil) -->
+	<Item ItemCat="14" ItemIndex="341" Price="50000"/>  <!-- Darkangel Soul -->
+	<Item ItemCat="14" ItemIndex="389" Price="100000"/>  <!-- Holyangel Soul -->
+	<Item ItemCat="14" ItemIndex="415" Price="150000"/>  <!-- Awakening Soul -->
+	<Item ItemCat="14" ItemIndex="449" Price="200000"/>  <!-- Frost Soul -->
+	<Item ItemCat="14" ItemIndex="494" Price="250000"/>  <!-- Forefathers Soul -->
+	<Item ItemCat="14" ItemIndex="501" Price="300000"/>  <!-- Manticore's Soul -->
+	<Item ItemCat="12" ItemIndex="81" Price="350000"/>   <!-- Brilliant's Soul -->
+	<Item ItemCat="12" ItemIndex="85" Price="400000"/>   <!-- Apocalypse Soul -->
+	<Item ItemCat="12" ItemIndex="96" Price="500000"/>   <!-- Lightning Soul -->
+	<!-- Casting Mold (khuon duc earring) -->
+	<Item ItemCat="14" ItemIndex="458" Price="25000"/>  <!-- Casting Mold of Forefathers -->
+	<Item ItemCat="14" ItemIndex="497" Price="50000"/>  <!-- Casting Mold of Glory -->
+	<Item ItemCat="20" ItemIndex="77" Price="100000"/>   <!-- Casting Mold of Blood -->
+	<Item ItemCat="20" ItemIndex="83" Price="200000"/>   <!-- Casting Mold of Allurement -->
+	<Item ItemCat="20" ItemIndex="112" Price="300000"/>  <!-- Casting Mold of Unity -->
+	<Item ItemCat="20" ItemIndex="257" Price="500000"/>  <!-- Verdant Frame (khuon duc earring tier 6 len tier 7) -->
+
+	<!-- Seal (dau an Guardian Elite) -->
+	<Item ItemCat="14" ItemIndex="498" Price="50000"/>  <!-- Ice Dragon Seal -->
+	<Item ItemCat="14" ItemIndex="510" Price="150000"/>  <!-- Fierce Lion Seal -->
+	<Item ItemCat="20" ItemIndex="84" Price="250000"/>   <!-- Shining Tail Seal -->
+	<Item ItemCat="20" ItemIndex="119" Price="350000"/>  <!-- Ullr Seal -->
+	<Item ItemCat="20" ItemIndex="253" Price="500000"/>  <!-- Leviathan's Seal -->
+	<!-- Upgrade / Socket / Shard -->
+	<Item ItemCat="14" ItemIndex="364" Price="5000"/>   <!-- Socket Upgrade Note -->
+	<Item ItemCat="14" ItemIndex="384" Price="1000"/>   <!-- Sphere Upgrade Rune Capsule -->
+	<Item ItemCat="14" ItemIndex="390" Price="2500"/>   <!-- Spirit Nixie's Shard -->
+	<!-- Loch / Condor Magic Solution (Bound) -->
+	<Item ItemCat="12" ItemIndex="407" Price="1000"/>   <!-- [Bound] Loch's Magic Solution -->
+	<Item ItemCat="12" ItemIndex="409" Price="75000"/>  <!-- [Bound] Condor's Magic Solution -->
+	<!-- Monster Soul Converter (nang cap Monster Soul) -->
+	<Item ItemCat="14" ItemIndex="460" Price="400"/>    <!-- [Lv.1] Monster Soul Converter -->
+	<Item ItemCat="14" ItemIndex="461" Price="500"/>    <!-- [Lv.2] Monster Soul Converter -->
+	<Item ItemCat="14" ItemIndex="462" Price="600"/>    <!-- [Lv.3] Monster Soul Converter -->
+	<Item ItemCat="14" ItemIndex="463" Price="700"/>    <!-- [Lv.4] Monster Soul Converter -->
+	<Item ItemCat="14" ItemIndex="464" Price="800"/>    <!-- [Lv.5] Monster Soul Converter -->
+	<!-- Pentagram / Errtel -->
+	<Item ItemCat="12" ItemIndex="509" Price="30000"/>  <!-- Pentagram Emblem -->
+	<Item ItemCat="12" ItemIndex="510" Price="20000"/>  <!-- Errtel Emblem -->
+	<!-- Wing Core (S18+) -->
+	<Item ItemCat="20" ItemIndex="159" Price="100000"/>  <!-- Pure Wing Core (Type 1) Design -->
+	<Item ItemCat="20" ItemIndex="161" Price="1200"/>   <!-- Wing Core Upgrade Stone -->
+
 </RuudPrice>
