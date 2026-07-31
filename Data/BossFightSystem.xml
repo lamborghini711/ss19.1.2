@@ -7,7 +7,7 @@
 // ============================================================
 -->
 
-<BossFightSystem SaveBossReswapnData="0">
+<BossFightSystem SaveBossReswapnData="1">
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 	<FightInfo Index="0" RequiereLevel="" RespawnHour="18" RespawnHourAddRand="6" Name="Kundun" SaveResPawn="1">
 		<Respawn>
