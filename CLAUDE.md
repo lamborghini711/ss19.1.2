@@ -90,6 +90,35 @@ XML files use the header banner `POWERED BY DV-Team`; preserve it and the surrou
 
 `Data/LuaBridge/ScriptMain.lua` is the entry point; it `require`s `System\ScriptCore.lua`, which registers callbacks by name. Bridge hooks exposed by the engine include: `OnReadScript`, `OnShutScript`, `OnTimerThread`, `OnCommandManager`, `OnCharacterEntry`, `OnCharacterClose`, `OnNpcTalk`, `OnMonsterDie`, `OnUserDie` (see `ScriptCore.lua` for the full table). Register new logic with `BridgeFunctionAttach("<hook>", "<function>")` in a script loaded from `ScriptMain.lua`.
 
+### ItemBag drops (two parallel systems)
+
+Two ItemBag trees exist and they are NOT interchangeable. Edit the wrong one and the change looks fine in git but never fires in-game.
+
+* **System A, `Data/Item/ItemBag/*.xml`** (named files like `ItemBag_Selupan.xml`) is referenced by `Data/Item/ItemBag/ItemBagList.xml` via `FileScriptName`. Attribute schema: `ItemCat`, `ItemIndex`, `ItemLevelMin`, `ItemLevelMax`, `Sort`, `SkillRate`, `LuckRate`, `OptionMin/Max`, `ExlMin/Max`, `Ancient`, `Rate`. Each `<Item>` carries its own `Rate`.
+* **System B, `Data/ItemBags/NNN - Monster_(MID)_Name.xml`** (numeric prefix files) is bound at runtime by `Data/Scripts/Item/ItemBagScript.lua` via `AddItemBag(BAG_MONSTER, N, 0, MonsterID)` where `N` is the numeric prefix. Attribute schema: `Cat`, `Index`, `ItemMinLevel`, `ItemMaxLevel`, `Skill`, `Luck`, `Option`, `Exc`, `SetItem`, `SocketCount`, `ElementalItem`, `Name`, optional `Durability`. Drop chance lives on the parent `<Drop Rate="N" Type="0" Count="M">`; `Count` is how many items the pool yields per firing.
+
+**Boss Battle menu bosses and Golden mini-bosses always use System B.** The Lua binding wins over the `ItemBagList.xml` mapping, so any System A edit for those monsters is dead code. Confirmed Boss Battle bag IDs (from `ItemBagScript.lua`):
+
+| Monster | ID | Bag | File |
+|---------|----|----|------|
+| Kundun | 275 | 371 | `Data/ItemBags/371 - Monster_(275)_Kundun_Kalima.xml` |
+| Selupan | 459 | 325 | `Data/ItemBags/325 - Monster_(459)_Selupan.xml` |
+| Medusa | 561 | 336 | `Data/ItemBags/336 - Monster_(561)_Medusa.xml` |
+| Lord Silvester | 673 | 644 | `Data/ItemBags/644 - Monster_(673)_Lord_Silvester.xml` |
+| Core Magriffy | 716 | 372 | `Data/ItemBags/372 - Monster_(716)_Core_Magriffy.xml` |
+| Lord of Ferea | 734 | 652 | `Data/ItemBags/652 - Monster_(734)_Lord_of_Ferea.xml` |
+| Nix (Knicks) | 746 | 653 | `Data/ItemBags/653 - Monster_(746)_Knicks.xml` |
+| God of Darkness | 794 | 654 | `Data/ItemBags/654 - Monster_(794)_God_of_Darkness.xml` |
+
+Golden mini-bosses live at Lua bag IDs 303-315 and 326-335 (also System B). Run `grep AddItemBag Data/Scripts/Item/ItemBagScript.lua` for the full N ↔ MonsterID map before editing.
+
+**Rules of thumb when changing boss drops:**
+
+1. For any Boss Battle menu or Golden mini-boss, edit `Data/ItemBags/NNN - Monster_*.xml`, never `Data/Item/ItemBag/`.
+2. Keep each boss's drop list unique. Do not batch the same additions onto every boss; treat each `NNN` file individually.
+3. For attribute books / Errtel / Kundun scrolls (Cat=12 Idx=208-214, Idx=221/231/241/251, and similar), keep the `<Drop>` container `Count="1"` so one kill yields one random book, not several.
+4. Ruud `MoneyDrop` on `<BagConfig>` overrides `Ruud` payout. Set `MoneyDrop="0"` when a Ruud block should actually fire.
+
 ## The Edit tool (`Edit/`)
 
 `Edit/DV-TeamEditors.exe` is a Windows .NET application (DevExpress 22.2 based, MySqlConnector) for editing game data with a GUI. `Edit/config.xml` holds its settings: `DataFolder` (points at a `Data` directory to edit), plus MySQL creds. When editing configs by hand, prefer keeping Edit closed; when using Edit, close text editors that hold XMLs open.
