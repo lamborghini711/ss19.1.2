@@ -56,7 +56,7 @@
 		</Spot>
 		
 		<Spot Type="2" Description="Single Monster Spawn">
-		    <!--Spawn Index="505" Distance="30" StartX="145" StartY="127" Dir="-1" /> <!-- Spider -->
+		    <!--<Spawn Index="505" Distance="30" StartX="145" StartY="127" Dir="-1" />--> <!-- Spider -->
 			
 			<Spawn Index="3" Distance="30" StartX="186" StartY="127" Dir="-1" /> <!-- Spider -->
 			<Spawn Index="3" Distance="30" StartX="193" StartY="118" Dir="-1" /> <!-- Spider -->
