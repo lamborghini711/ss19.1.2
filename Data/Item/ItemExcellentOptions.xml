@@ -181,7 +181,7 @@
 	<WingOptionDropRate>
 		<!-- Sum of the values must be equal to 10000 per row -->
 		<Kind KindA="6" KindB="24" Zero="8000" One="1500" Two="500" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
-		<Kind KindA="6" KindB="25" Zero="9000" One="750" Two="250" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
+		<Kind KindA="6" KindB="25" Zero="0" One="0" Two="0" Three="0" Four="10000" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
 		<Kind KindA="6" KindB="26" Zero="8000" One="1500" Two="500" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
 		<Kind KindA="6" KindB="27" Zero="9000" One="750" Two="250" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>
 		<Kind KindA="6" KindB="28" Zero="9900" One="75" Two="25" Three="0" Four="0" Five="0" Six="0" Seven="0" Eight="0" Nine="0"/>

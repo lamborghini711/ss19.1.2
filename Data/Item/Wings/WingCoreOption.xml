@@ -58,9 +58,9 @@
 
 <WingCoreOption>
 	<OptionRandCount>
-		<Option Count="0" Rate="360000"/>
-		<Option Count="1" Rate="340000"/>
-		<Option Count="2" Rate="300000"/>
+		<Option Count="0" Rate="0"/>
+		<Option Count="1" Rate="0"/>
+		<Option Count="2" Rate="1000000"/>
 	</OptionRandCount>
 	<WingCoreList>
 		<Core Index="0" Type="1" ItemCat="13" ItemIndex="182" OptionIndex="23" FormulaGroup="14" FormulaID="2" TextID="1386" Name="Wing attack power/magic power/curse power increase +%d"/>

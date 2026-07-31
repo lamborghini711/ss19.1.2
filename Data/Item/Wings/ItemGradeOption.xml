@@ -45,8 +45,8 @@
 
 <GradedOptions>
 	<OptionMixCount>
-		<OptionCount ItemKindB="76" Rate1="9250" Rate2="500" Rate3="200" Rate4="50" />
-		<OptionCount ItemKindB="106" Rate1="9000" Rate2="8000" /> <!-- Fifth wings can have max 2 options -->
+		<OptionCount ItemKindB="76" Rate1="0" Rate2="0" Rate3="0" Rate4="10000" />
+		<OptionCount ItemKindB="106" Rate1="0" Rate2="10000" /> <!-- Fifth wings can have max 2 options -->
 	</OptionMixCount>
 	<List>
 		<ItemKind B="76">
