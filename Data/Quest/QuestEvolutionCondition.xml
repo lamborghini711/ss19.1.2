@@ -65,7 +65,7 @@
     </QuestEvo>
 	
 	  <QuestEvo ID="10">
-		<Data ConditionID="-1" ReqQuestID="9" MinLevel="0" MaxLevel="-1" ReqZen="0" ContextStart="232" />
+		<Data ConditionID="-1" ReqQuestID="255" MinLevel="0" MaxLevel="-1" ReqZen="0" ContextStart="232" />
 		<Data ConditionID="-1" ReqQuestID="255" MinLevel="1200" MaxLevel="-1" ReqZen="0" ContextStart="144" />
     </QuestEvo>
 	
