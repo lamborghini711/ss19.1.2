@@ -630,11 +630,11 @@ function GladiatorHavokSpear(InDamage, Strength, Dexterity, Vitality, Energy, Ba
     local OutDamage = 0
     
      if (BarrageCount == 1) then
-        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+        OutDamage = (InDamage * 1.33) * ( 200 + ( Energy / 10 ) ) / 100;
     elseif (BarrageCount == 2) then
-        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;
+        OutDamage = (InDamage * 1.43) * ( 200 + ( Energy / 10 ) ) / 100;
     elseif (BarrageCount == 3) then
-        OutDamage = (InDamage * 0.33) * ( 200 + ( Energy / 10 ) ) / 100;	
+        OutDamage = (InDamage * 1.53) * ( 200 + ( Energy / 10 ) ) / 100;	
 	elseif(BarrageCount == 4) then -- Explosion
 		OutDamage = 10000
     end
@@ -1269,7 +1269,7 @@ end
 -- SkillID: 293, Bat Flock - (Damage)+
 function SlayerBatFlockCalc(InDamage, Strength, Dexterity, BarrageCount) --2 hits
 	
-	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
+	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 8) + 120) / 50
 	OutDamage = OutDamage * 0.5
 	
 	return OutDamage
@@ -1277,7 +1277,7 @@ end
 
 -- SkillID: 293, Bat Flock - (Damage over time)+
 function BatFlock_DotDamage(InDamage, Strength, Dexterity)
-	local Damage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 50
+	local Damage = InDamage * ((Strength / 8) + (Dexterity / 8) + 120) / 50
 	local DotDamage = InDamage / 5
 	local Time = 10
 	
@@ -1287,7 +1287,7 @@ end
 -- SkillID: 294, Pierce Attack+
 function SlayerPierceAttackCalc(InDamage, Strength, Dexterity, BarrageCount)--2hit
 	
-local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
+local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 8) + 120) / 50
 	
 	return OutDamage
 	
