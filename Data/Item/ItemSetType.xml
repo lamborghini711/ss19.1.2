@@ -1064,6 +1064,7 @@
 		<Item Index="353" AncientId1="313" AncientId2="0" AncientId3="0"/>
 		<Item Index="354" AncientId1="314" AncientId2="315" AncientId3="0"/>
 		<!-- S20.1.3 -->
+		<Item Index="355" AncientId1="326" AncientId2="0" AncientId3="0"/>
 		<Item Index="356" AncientId1="327" AncientId2="0" AncientId3="0"/>
 		<Item Index="357" AncientId1="328" AncientId2="0" AncientId3="0"/>
 		<Item Index="358" AncientId1="329" AncientId2="0" AncientId3="0"/>
@@ -1074,6 +1075,8 @@
 		<Item Index="364" AncientId1="335" AncientId2="0" AncientId3="0"/>
 		<Item Index="365" AncientId1="336" AncientId2="0" AncientId3="0"/>
 		<Item Index="366" AncientId1="337" AncientId2="0" AncientId3="0"/>
+		<Item Index="367" AncientId1="338" AncientId2="0" AncientId3="0"/>
+		<Item Index="368" AncientId1="339" AncientId2="0" AncientId3="0"/>
 		<Item Index="369" AncientId1="340" AncientId2="0" AncientId3="0"/>
 		<Item Index="370" AncientId1="341" AncientId2="0" AncientId3="0"/>
 		<Item Index="371" AncientId1="342" AncientId2="0" AncientId3="0"/>
@@ -1212,11 +1215,22 @@
 		<Item Index="354" AncientId1="314" AncientId2="315" AncientId3="0"/>
 		<!-- S20.1.3 -->
 		<Item Index="355" AncientId1="326" AncientId2="0" AncientId3="0"/>
+		<Item Index="356" AncientId1="327" AncientId2="0" AncientId3="0"/>
+		<Item Index="357" AncientId1="328" AncientId2="0" AncientId3="0"/>
+		<Item Index="358" AncientId1="329" AncientId2="0" AncientId3="0"/>
 		<Item Index="359" AncientId1="330" AncientId2="0" AncientId3="0"/>
+		<Item Index="360" AncientId1="331" AncientId2="0" AncientId3="0"/>
 		<Item Index="361" AncientId1="332" AncientId2="0" AncientId3="0"/>
+		<Item Index="362" AncientId1="333" AncientId2="0" AncientId3="0"/>
+		<Item Index="363" AncientId1="334" AncientId2="0" AncientId3="0"/>
 		<Item Index="364" AncientId1="335" AncientId2="0" AncientId3="0"/>
+		<Item Index="365" AncientId1="336" AncientId2="0" AncientId3="0"/>
+		<Item Index="366" AncientId1="337" AncientId2="0" AncientId3="0"/>
 		<Item Index="367" AncientId1="338" AncientId2="0" AncientId3="0"/>
 		<Item Index="368" AncientId1="339" AncientId2="0" AncientId3="0"/>
+		<Item Index="369" AncientId1="340" AncientId2="0" AncientId3="0"/>
+		<Item Index="370" AncientId1="341" AncientId2="0" AncientId3="0"/>
+		<Item Index="371" AncientId1="342" AncientId2="0" AncientId3="0"/>
 	</Category>
 	<Category Index="13" Name="Ring and Pedant">
 		<Item Index="8" AncientId1="1" AncientId2="73" AncientId3="0"/>
