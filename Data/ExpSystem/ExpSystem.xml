@@ -9,7 +9,7 @@
 
 <ExpSystem>
 	
-	<StaicExp Normal="10" Master="10" Majestic="10" />
+	<StaicExp Normal="5" Master="5" Majestic="5" />
 	<PartyExp One="10" Two="11" Three="12" Four="13" Five="14" />
 	<PartyExpBonus One="10" Two="11" Three="12" Four="13" Five="14" />
 

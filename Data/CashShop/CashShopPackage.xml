@@ -55,4 +55,8 @@
     <Package ID="81" Position="7" Name="Lethal Wizard's Ring" Description="" DisPlayItem="6763" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
     <Package ID="82" Position="8" Name="Wizards Ring" Description="" DisPlayItem="6676" Flags="0" PriceType="0" PriceName="WCoin Shop" CategoryName="Ring And Guardian" StartDate="20100526194000" EndDate="20190531124000" />
   </Category>
+  <Category ID="13">
+    <Package ID="90" Position="0" Name="EXP Package 30D" Description="Pet Panda, Party EXP Scroll, Master Seal of Ascension II, Talisman of Ascension III, Max AG Boost Aura, Seal of Wealth, Seal of Healing (30 days)" DisPlayItem="6759" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Package" StartDate="20100526194000" EndDate="20190531124000" />
+    <Package ID="91" Position="1" Name="Buff Package 30D" Description="Scroll of Quickness, Defense, Wrath, Wizardry, Health, Mana, Battle, Strength, Healing (30 days)" DisPlayItem="7240" Flags="1" PriceType="0" PriceName="WCoin Shop" CategoryName="Package" StartDate="20100526194000" EndDate="20190531124000" />
+  </Category>
 </CashShopPackage>
