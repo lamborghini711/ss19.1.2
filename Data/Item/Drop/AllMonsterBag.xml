@@ -502,9 +502,12 @@
 	<DropItem MonsterMinLevel="145" MonsterMaxLevel="145" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="500" Name="Jewel of Creation" />
 	<DropItem MonsterMinLevel="147" MonsterMaxLevel="147" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="500" Name="Jewel of Creation" />
 	<DropItem MonsterMinLevel="148" MonsterMaxLevel="148" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="500" Name="Jewel of Creation" />
-	
 	<DropItem MonsterMinLevel="149" MonsterMaxLevel="960" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="22" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1000" Name="Jewel of Creation" />
 
-	<DropItem MonsterMinLevel="100" MonsterMaxLevel="960" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="100" PlayerMaxLevel="-1" Cat="13" Index="126" MinLevel="0" MaxLevel="0" Durability="10" Element="0" Duration="0" Rate="500" Name="Access Ticket to Varka" />
+	<DropItem MonsterMinLevel="100" MonsterMaxLevel="960" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="100" PlayerMaxLevel="-1" Cat="20" Index="108" MinLevel="0" MaxLevel="0" Durability="10" Element="0" Duration="0" Rate="500" Name="Varka Ticket" />
+	<DropItem MonsterMinLevel="149" MonsterMaxLevel="960" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="164" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="2000" Name="Ability Crystal" />
+	<DropItem MonsterMinLevel="149" MonsterMaxLevel="960" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="20" Index="238" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="500" Name="(Bound) Ability Crystal" />
+
+
 
 </AllMonsterItemDrop>

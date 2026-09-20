@@ -8600,6 +8600,11 @@
 			<Spawn Index="880" Distance="5" StartX="231" StartY="130" Dir="-1" Element="5" /> <!-- (Elite) Ashy Bloody Witch Queen -->
 			<Spawn Index="880" Distance="5" StartX="225" StartY="127" Dir="-1" Element="5" /> <!-- (Elite) Ashy Bloody Witch Queen -->
 
+			<Spawn Index="876" Distance="5" StartX="111" StartY="91" Dir="-1" Element="2" /> <!-- Ashy Forest Oak -->
+			<Spawn Index="878" Distance="5" StartX="116" StartY="95" Dir="-1" Element="2" /> <!-- Ashy Witch Queen -->
+			<Spawn Index="879" Distance="5" StartX="113" StartY="94" Dir="-1" Element="2" /> <!-- (Elite) Ashy Golem -->
+			<Spawn Index="880" Distance="5" StartX="115" StartY="93" Dir="-1" Element="2" /> <!-- (Elite) Ashy Bloody Witch Queen -->
+
 		</Spot>
 	</Map>
 	

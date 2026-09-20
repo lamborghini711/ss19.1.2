@@ -1309,11 +1309,11 @@ function SwordBlow_Knight(InDamage, Strength, Dexterity, Vitality, Energy, Barra
 	local OutDamage = 0
 
 	if (BarrageCount == 1) then
-		OutDamage = (InDamage * 0.8) * (Energy / 10 + 200) / 100
+		OutDamage = (InDamage * 0.8) * (Energy / 10 + 200) / 50
 	elseif (BarrageCount == 2) then
-		OutDamage = (InDamage * 1.0) * (Energy / 10 + 200) / 100
+		OutDamage = (InDamage * 1.0) * (Energy / 10 + 200) / 50
 	elseif (BarrageCount == 3) then
-		OutDamage = (InDamage * 1.2) * (Energy / 10 + 200) / 100
+		OutDamage = (InDamage * 1.2) * (Energy / 10 + 200) / 50
 	end
 
 	return OutDamage
