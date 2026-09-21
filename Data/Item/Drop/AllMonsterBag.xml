@@ -35,8 +35,8 @@
 -->
 
 <AllMonsterItemDrop>
-    <DropItem MonsterMinLevel="1" MonsterMaxLevel="94" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="446" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="2000" Name="Lock Magic Bell" />
-    <DropItem MonsterMinLevel="1" MonsterMaxLevel="117" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="447" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="2000" Name="Condor Magical Drops" />
+    <DropItem MonsterMinLevel="1" MonsterMaxLevel="950" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="446" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="2000" Name="Lock Magic Bell" />
+    <DropItem MonsterMinLevel="1" MonsterMaxLevel="950" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="12" Index="447" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="2000" Name="Condor Magical Drops" />
    	<DropItem MonsterMinLevel="48" MonsterMaxLevel="950" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="210" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1000" Name="Summon Scroll (Lv1)" />
 	<!-- <DropItem MonsterMinLevel="48" MonsterMaxLevel="950" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="211" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1000" Name="Summon Scroll (Lv2)" />
 	<DropItem MonsterMinLevel="48" MonsterMaxLevel="950" PlayerMinReset="-1" PlayerMaxReset="-1" PlayerMinLevel="-1" PlayerMaxLevel="-1" Cat="14" Index="212" MinLevel="0" MaxLevel="0" Durability="0" Element="0" Duration="0" Rate="1000" Name="Summon Scroll (Lv3)" />
