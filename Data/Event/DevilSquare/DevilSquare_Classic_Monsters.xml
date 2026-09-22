@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 
+<!--
 // ============================================================
 // == 				MUONLINE SERVER EMULATOR				 ==
 // == 				   POWERED BY DV-Team				 	 ==
@@ -22,71 +22,70 @@
 //	EndY: The End Y coordinate of monster spawn area, must be lower or equal EndX
 //	Count: Count of monsters to spawn
 //
-// STRICTLY NO COMMENTS INSIDE TAGS 
+// STRICTLY NO COMMENTS INSIDE TAGS
 -->
 
 <DevilSquare_Classic>
-	<Monster EventLevel="0" MapNumber="9"> <!-- Level 1 -->
-		<Spawn Index="16" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1"  Count="12" /> <!-- CHief Skeleton Warrior -->
-		<Spawn Index="423"  Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1"  Count="12" /> <!-- Poison Bull Fighter -->
-		<Spawn Index="20" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1"  Count="12" /> <!-- Death Knight -->
-		<Spawn Index="8"  Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1"  Count="12" /> <!-- Poison Bull Fighter -->
-		<Spawn Index="40" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1"  Count="12" /> <!-- Death Knight -->
-	    <Spawn Index="575"  Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1"  Count="12" /> <!-- Condra -->
-    </Monster>
-	
-	<Monster EventLevel="1" MapNumber="9"> <!-- Level 2 -->
-		<Spawn Index="57"  Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="13"/> <!-- Iron Whell -->
-		<Spawn Index="457"  Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="13"/> <!-- Coolutin -->
-		<Spawn Index="785"  Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="13"/> <!-- DarkIron Knight -->
-		<Spawn Index="744" Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="13"/> <!-- Ferea Knight-->
-		<Spawn Index="730" Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="13"/> <!-- Vasuki-->
-		<Spawn Index="774"  Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="13"/> <!-- Deep Dungeon Hell Spider -->
+	<Monster EventLevel="0" MapNumber="9"> <!-- Level 1 (player 50-399) -->
+		<Spawn Index="16" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1" Count="5" /> <!-- Chief Skeleton Warrior -->
+		<Spawn Index="8" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1" Count="5" /> <!-- Poison Bull Fighter -->
+		<Spawn Index="10" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1" Count="5" /> <!-- Dark Knight -->
+		<Spawn Index="39" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1" Count="5" /> <!-- Poison Shadow -->
+		<Spawn Index="37" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1" Count="5" /> <!-- Devil -->
+		<Spawn Index="40" Distance="30" StartX="121" StartY="084" EndX="150" EndY="114" Dir="-1" Count="5" /> <!-- Death Knight -->
 	</Monster>
-	
-	<Monster EventLevel="2" MapNumber="9"> <!-- Level 3 -->
-		<Spawn Index="732" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1"  Count="8" /> <!-- Ferea Fighter -->
-		<Spawn Index="310" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1"  Count="9" /> <!-- Blood Soldier -->
-		<Spawn Index="744" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1"  Count="9" /> <!-- Vasuki-->
-	    <Spawn Index="789" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1"  Count="8" /> <!-- Mutantile -->
-		<Spawn Index="811" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1"  Count="9" /> <!-- Mine Carrier -->
-		<Spawn Index="813" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1"  Count="9" /> <!-- Mine Driller-->
+
+	<Monster EventLevel="1" MapNumber="9"> <!-- Level 2 (player 400-799) -->
+		<Spawn Index="62" Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="5" /> <!-- Mutant -->
+		<Spawn Index="64" Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="5" /> <!-- Ogre Archer -->
+		<Spawn Index="71" Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="5" /> <!-- Mega Crust -->
+		<Spawn Index="57" Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="5" /> <!-- Iron Wheel -->
+		<Spawn Index="61" Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="5" /> <!-- Beam Knight -->
+		<Spawn Index="293" Distance="30" StartX="121" StartY="152" EndX="151" EndY="181" Dir="-1" Count="5" /> <!-- Poison Golem -->
 	</Monster>
-	
-	<Monster EventLevel="3" MapNumber="9"> <!-- Level 4 -->
-		<Spawn Index="743" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1"  Count="5" /> <!-- Paraca -->
-		<Spawn Index="770" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1"  Count="5" /> <!-- Deep Dungeon Larva -->
-		<Spawn Index="771" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1"  Count="5" /> <!-- Deep Dungeon Cyclops -->
-		<Spawn Index="744" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1"  Count="5" /> <!-- Vasuki -->
-		<Spawn Index="745" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1"  Count="5" /> <!-- Bass -->
-		<Spawn Index="773" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1"  Count="5" /> <!-- Deep Dungeon Hellhound -->
+
+	<Monster EventLevel="2" MapNumber="9"> <!-- Level 3 (player 800-899) -->
+		<Spawn Index="66" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1" Count="4" /> <!-- Cursed King -->
+		<Spawn Index="59" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1" Count="4" /> <!-- Zaikan -->
+		<Spawn Index="74" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1" Count="4" /> <!-- Alpha Crust -->
+		<Spawn Index="72" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1" Count="4" /> <!-- Phantom Knight -->
+		<Spawn Index="63" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1" Count="4" /> <!-- Death Beam Knight -->
+		<Spawn Index="75" Distance="30" StartX="50" StartY="140" EndX="80" EndY="172" Dir="-1" Count="4" /> <!-- Great Drakan -->
 	</Monster>
-	
-	<Monster EventLevel="4" MapNumber="32"> <!-- Level 5 -->
-		<Spawn Index="776" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1"  Count="9" /> <!-- Deep Dungeon Poison Bull Fighter -->
-		<Spawn Index="786" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1"  Count="9" /> <!-- Swamp Ent-->
-		<Spawn Index="769" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1"  Count="9" /> <!-- Deep Dungeon Chief Skeleton-->
-		<Spawn Index="768" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1"  Count="9" /> <!-- Deep Dungeon Chief Skeleton Archer-->
-		<Spawn Index="789" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1"  Count="9" /> <!-- Mutantile-->
-		<Spawn Index="810" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1"  Count="9" /> <!-- Mine Digger-->
-		
+
+	<Monster EventLevel="3" MapNumber="9"> <!-- Level 4 (player 900-1099) -->
+		<Spawn Index="273" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1" Count="4" /> <!-- Necron 6 -->
+		<Spawn Index="77" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1" Count="4" /> <!-- Phoenix of Darkness -->
+		<Spawn Index="552" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1" Count="4" /> <!-- Bloody Witch Queen -->
+		<Spawn Index="313" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1" Count="4" /> <!-- Werewolf -->
+		<Spawn Index="314" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1" Count="4" /> <!-- Scout (Hero) -->
+		<Spawn Index="316" Distance="30" StartX="121" StartY="138" EndX="151" EndY="181" Dir="-1" Count="4" /> <!-- Balram -->
 	</Monster>
-	
-	<Monster EventLevel="5" MapNumber="32"> <!-- Level 6 -->
-		<Spawn Index="737" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1"  Count="12" /> <!-- Ferea Archer -->
-		<Spawn Index="867" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1"  Count="12" /> <!-- Temple Ogret -->
-		<Spawn Index="860" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1"  Count="12" /> <!-- Red Mega Crust -->
-		<Spawn Index="876" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1"  Count="12" /> <!-- "Ashy Forest Oak -->
-		<Spawn Index="878" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1"  Count="12" /> <!-- Ashy Witch Queen -->
-		<Spawn Index="911" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1"  Count="12" /> <!-- Magma Gladiator -->
+
+	<Monster EventLevel="4" MapNumber="32"> <!-- Level 5 (player 1100-1299) -->
+		<Spawn Index="140" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Dark Skull Soldier 7 -->
+		<Spawn Index="438" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Persona -->
+		<Spawn Index="141" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Giant Ogre 7 -->
+		<Spawn Index="142" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Red Skeleton Knight 7 -->
+		<Spawn Index="143" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Magic Skeleton 7 -->
+		<Spawn Index="363" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Maya Hand -->
 	</Monster>
-	
-	<Monster EventLevel="6" MapNumber="32"> <!-- Level 7 -->
-		<Spawn Index="878" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1"  Count="12" /> <!-- Ashy Witch Queen -->
-		<Spawn Index="911" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1"  Count="12" /> <!-- Magma Gladiator -->
-		<Spawn Index="926" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1"  Count="12" /> <!-- loody Mutant-->
-		<Spawn Index="942" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1"  Count="12" /> <!-- Storm Guard -->
-		<Spawn Index="955" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1"  Count="8" /> <!-- Twisted Crypta -->
-		<Spawn Index="957" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1"  Count="8" /> <!-- Twisted Condra -->
+
+	<Monster EventLevel="5" MapNumber="32"> <!-- Level 6 (player 1300-1499) -->
+		<Spawn Index="773" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1" Count="3" /> <!-- Deep Dungeon Hellhound -->
+		<Spawn Index="768" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1" Count="3" /> <!-- Deep Dungeon Chief Skeleton Archer -->
+		<Spawn Index="769" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1" Count="3" /> <!-- Deep Dungeon Chief Skeleton -->
+		<Spawn Index="774" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1" Count="3" /> <!-- Deep Dungeon Hell Spider -->
+		<Spawn Index="775" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1" Count="3" /> <!-- Deep Dungeon Thunder Lich -->
+		<Spawn Index="776" Distance="30" StartX="121" StartY="151" EndX="151" EndY="182" Dir="-1" Count="3" /> <!-- Deep Dungeon Poison Bull Fighter -->
+	</Monster>
+
+	<Monster EventLevel="6" MapNumber="32"> <!-- Level 7 (player 1500+) -->
+		<Spawn Index="787" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1" Count="3" /> <!-- Wooden Beast -->
+		<Spawn Index="789" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1" Count="3" /> <!-- Mutantile -->
+		<Spawn Index="810" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1" Count="3" /> <!-- Mine Digger -->
+		<Spawn Index="811" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1" Count="3" /> <!-- Mine Carrier -->
+		<Spawn Index="813" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1" Count="3" /> <!-- Mine Driller -->
+		<Spawn Index="815" Distance="30" StartX="50" StartY="138" EndX="79" EndY="173" Dir="-1" Count="3" /> <!-- Dead Shoveler -->
 	</Monster>
 </DevilSquare_Classic>
