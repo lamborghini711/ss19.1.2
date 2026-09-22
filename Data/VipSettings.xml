@@ -196,9 +196,9 @@
 			</ChaosBoxMixRates>
 			
 			<GiantTypeAwardRate>
-				<Giant Type="1" Rate="5000" />
-				<Giant Type="2" Rate="3000" />
-				<Giant Type="3" Rate="2000" />
+				<Giant Type="1" Rate="3000" />
+				<Giant Type="2" Rate="7000" />
+				<Giant Type="3" Rate="9000" />
 			</GiantTypeAwardRate>
 			
 		</Vip>

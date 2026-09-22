@@ -61,7 +61,7 @@
 
 
 
-<BloodCastle Enable="1" EarlyFinishRestriction="0" EarlyFinishMinTime="300" MonsterKillReqPerPlayer="40" DeliverWeaponTime="9000" RewardScore="0" SkillRushCheck = "1" EventEnterCount="1" >
+<BloodCastle Enable="1" EarlyFinishRestriction="0" EarlyFinishMinTime="300" MonsterKillReqPerPlayer="40" DeliverWeaponTime="9000" RewardScore="0" SkillRushCheck = "1" EventEnterCount="2" >
 
 <Monster TimeToRegen="0" />
 
