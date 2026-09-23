@@ -171,65 +171,66 @@
 	
 	<MonsterAppearanceSettings>
 		<Ground Level="0">
-			<Square MonsterIndex="16" SpawnStartTime="0"  SpawnEndTime="4"  Name="CHief Skeleton Warrior" />
-			<Square MonsterIndex="423" SpawnStartTime="0"  SpawnEndTime="4"  Name="Totem Golem" />
-			<Square MonsterIndex="20" SpawnStartTime="3"  SpawnEndTime="7"  Name="Elite Yeti" />
-			<Square MonsterIndex="8"  SpawnStartTime="3"  SpawnEndTime="7"  Name="Poison Bull Fighter" />
-			<Square MonsterIndex="40" SpawnStartTime="6"  SpawnEndTime="10" Name="Death Knight" />
-		    <Square MonsterIndex="575" SpawnStartTime="6"  SpawnEndTime="10" Name="Condra" />
+			<Square MonsterIndex="16" SpawnStartTime="0" SpawnEndTime="4" Name="Chief Skeleton Warrior" />
+			<Square MonsterIndex="8" SpawnStartTime="0" SpawnEndTime="4" Name="Poison Bull Fighter" />
+			<Square MonsterIndex="10" SpawnStartTime="3" SpawnEndTime="7" Name="Dark Knight" />
+			<Square MonsterIndex="39" SpawnStartTime="3" SpawnEndTime="7" Name="Poison Shadow" />
+			<Square MonsterIndex="37" SpawnStartTime="6" SpawnEndTime="10" Name="Devil" />
+			<Square MonsterIndex="40" SpawnStartTime="6" SpawnEndTime="10" Name="Death Knight" />
 		</Ground>
-		
+
 		<Ground Level="1">
-			<Square MonsterIndex="57" SpawnStartTime="0"  SpawnEndTime="4"  Name="Iron Wheel" />
-			<Square MonsterIndex="457" SpawnStartTime="0"  SpawnEndTime="4" Name="Coolutin" />
-			<Square MonsterIndex="785" SpawnStartTime="3"  SpawnEndTime="7" Name="Dark Iron Knight" />
-			<Square MonsterIndex="744"  SpawnStartTime="3"  SpawnEndTime="7"  Name="Ferea Knight" />
-			<Square MonsterIndex="730"  SpawnStartTime="6"  SpawnEndTime="10"  Name="Vasuki" />
-			<Square MonsterIndex="774"  SpawnStartTime="6"  SpawnEndTime="10"  Name="Deep Dungeon Hell Spider" />
+			<Square MonsterIndex="62" SpawnStartTime="0" SpawnEndTime="4" Name="Mutant" />
+			<Square MonsterIndex="64" SpawnStartTime="0" SpawnEndTime="4" Name="Ogre Archer" />
+			<Square MonsterIndex="71" SpawnStartTime="3" SpawnEndTime="7" Name="Mega Crust" />
+			<Square MonsterIndex="57" SpawnStartTime="3" SpawnEndTime="7" Name="Iron Wheel" />
+			<Square MonsterIndex="61" SpawnStartTime="6" SpawnEndTime="10" Name="Beam Knight" />
+			<Square MonsterIndex="293" SpawnStartTime="6" SpawnEndTime="10" Name="Poison Golem" />
 		</Ground>
-		
+
 		<Ground Level="2">
-			<Square MonsterIndex="732" SpawnStartTime="0"  SpawnEndTime="4"  Name="Ferea Fighter" />
-			<Square MonsterIndex="310" SpawnStartTime="0"  SpawnEndTime="4"  Name="Hammer Scout" />
-			<Square MonsterIndex="744" SpawnStartTime="3"  SpawnEndTime="7" Name="Vasuki" />	
-			<Square MonsterIndex="789" SpawnStartTime="3"  SpawnEndTime="7" Name="Mutantile" />	
-			<Square MonsterIndex="811" SpawnStartTime="6"  SpawnEndTime="10" Name="Mine Carrier" />	
-			<Square MonsterIndex="813" SpawnStartTime="6"  SpawnEndTime="10" Name="Mine Carrier" />	
+			<Square MonsterIndex="66" SpawnStartTime="0" SpawnEndTime="4" Name="Cursed King" />
+			<Square MonsterIndex="59" SpawnStartTime="0" SpawnEndTime="4" Name="Zaikan" />
+			<Square MonsterIndex="74" SpawnStartTime="3" SpawnEndTime="7" Name="Alpha Crust" />
+			<Square MonsterIndex="72" SpawnStartTime="3" SpawnEndTime="7" Name="Phantom Knight" />
+			<Square MonsterIndex="63" SpawnStartTime="6" SpawnEndTime="10" Name="Death Beam Knight" />
+			<Square MonsterIndex="75" SpawnStartTime="6" SpawnEndTime="10" Name="Great Drakan" />
 		</Ground>
-		
+
 		<Ground Level="3">
-			<Square MonsterIndex="743" SpawnStartTime="0"  SpawnEndTime="4"  Name="Paraca" />
-			<Square MonsterIndex="770" SpawnStartTime="0"  SpawnEndTime="4"  Name="Deep Dungeon Larva" />
-			<Square MonsterIndex="771" SpawnStartTime="3"  SpawnEndTime="7" Name="Deep Dungeon Cyclops" />
-			<Square MonsterIndex="744" SpawnStartTime="3"  SpawnEndTime="7" Name="Vasuki" />
-			<Square MonsterIndex="745" SpawnStartTime="6" SpawnEndTime="10" Name="Bass" />
-			<Square MonsterIndex="773" SpawnStartTime="6" SpawnEndTime="10" Name="Deep Dungeon Hellhound" />
+			<Square MonsterIndex="273" SpawnStartTime="0" SpawnEndTime="4" Name="Necron 6" />
+			<Square MonsterIndex="77" SpawnStartTime="0" SpawnEndTime="4" Name="Phoenix of Darkness" />
+			<Square MonsterIndex="552" SpawnStartTime="3" SpawnEndTime="7" Name="Bloody Witch Queen" />
+			<Square MonsterIndex="313" SpawnStartTime="3" SpawnEndTime="7" Name="Werewolf" />
+			<Square MonsterIndex="314" SpawnStartTime="6" SpawnEndTime="10" Name="Scout (Hero)" />
+			<Square MonsterIndex="316" SpawnStartTime="6" SpawnEndTime="10" Name="Balram" />
 		</Ground>
-		
+
 		<Ground Level="4">
-			<Square MonsterIndex="776" SpawnStartTime="0" SpawnEndTime="4" 	 Name="Deep Dungeon Poison Bull Fighter" />
-			<Square MonsterIndex="786" SpawnStartTime="0" SpawnEndTime="4" 	 Name="Swamp Ent" />
-			<Square MonsterIndex="769" SpawnStartTime="3" SpawnEndTime="7"  Name="Deep Dungeon Chief Skeleton" />
-			<Square MonsterIndex="768" SpawnStartTime="3" SpawnEndTime="7"  Name="Deep Dungeon Chief Skeleton Archer" />
-			<Square MonsterIndex="789" SpawnStartTime="6" SpawnEndTime="10" Name="Mutantile" />
-			<Square MonsterIndex="810" SpawnStartTime="6" SpawnEndTime="10" Name="Mine Digger" />
+			<Square MonsterIndex="334" SpawnStartTime="0" SpawnEndTime="4" Name="Death Angel 7" />
+			<Square MonsterIndex="438" SpawnStartTime="0" SpawnEndTime="4" Name="Persona" />
+			<Square MonsterIndex="335" SpawnStartTime="3" SpawnEndTime="7" Name="Necron 7" />
+			<Square MonsterIndex="336" SpawnStartTime="3" SpawnEndTime="7" Name="Death Centurion 7" />
+			<Square MonsterIndex="337" SpawnStartTime="6" SpawnEndTime="10" Name="Schriker 7" />
+			<Square MonsterIndex="363" SpawnStartTime="6" SpawnEndTime="10" Name="Maya Hand" />
 		</Ground>
-		
+
 		<Ground Level="5">
-			<Square MonsterIndex="737" SpawnStartTime="0"  SpawnEndTime="4"  Name="Ferea Archer" />
-			<Square MonsterIndex="867" SpawnStartTime="0"  SpawnEndTime="4"  Name="Temple Ogret" />
-			<Square MonsterIndex="860" SpawnStartTime="3"  SpawnEndTime="7" Name="Red Mega Crus" />
-			<Square MonsterIndex="876" SpawnStartTime="3"  SpawnEndTime="7" Name="Ashy Forest Oak" />
-			<Square MonsterIndex="878" SpawnStartTime="6" SpawnEndTime="10" Name="Ashy Witch Queen" />
-			<Square MonsterIndex="911" SpawnStartTime="6" SpawnEndTime="10" Name="Magma Gladiator" />
+			<Square MonsterIndex="773" SpawnStartTime="0" SpawnEndTime="4" Name="Deep Dungeon Hellhound" />
+			<Square MonsterIndex="768" SpawnStartTime="0" SpawnEndTime="4" Name="Deep Dungeon Chief Skeleton Archer" />
+			<Square MonsterIndex="769" SpawnStartTime="3" SpawnEndTime="7" Name="Deep Dungeon Chief Skeleton" />
+			<Square MonsterIndex="774" SpawnStartTime="3" SpawnEndTime="7" Name="Deep Dungeon Hell Spider" />
+			<Square MonsterIndex="775" SpawnStartTime="6" SpawnEndTime="10" Name="Deep Dungeon Thunder Lich" />
+			<Square MonsterIndex="776" SpawnStartTime="6" SpawnEndTime="10" Name="Deep Dungeon Poison Bull Fighter" />
 		</Ground>
+
 		<Ground Level="6">
-			<Square MonsterIndex="878" SpawnStartTime="0"  SpawnEndTime="4"  Name="Ashy Witch Queen" />
-			<Square MonsterIndex="911" SpawnStartTime="0"  SpawnEndTime="4"  Name="Magma Gladiator" />
-			<Square MonsterIndex="926" SpawnStartTime="3"  SpawnEndTime="7" Name="Bloody Mutant" />
-			<Square MonsterIndex="942" SpawnStartTime="3"  SpawnEndTime="7" Name="Storm Guard" />
-			<Square MonsterIndex="955" SpawnStartTime="6" SpawnEndTime="10" Name="Twisted Crypta" />
-			<Square MonsterIndex="957" SpawnStartTime="6" SpawnEndTime="10" Name="Twisted Condra" />
+			<Square MonsterIndex="787" SpawnStartTime="0" SpawnEndTime="4" Name="Wooden Beast" />
+			<Square MonsterIndex="789" SpawnStartTime="0" SpawnEndTime="4" Name="Mutantile" />
+			<Square MonsterIndex="810" SpawnStartTime="3" SpawnEndTime="7" Name="Mine Digger" />
+			<Square MonsterIndex="811" SpawnStartTime="3" SpawnEndTime="7" Name="Mine Carrier" />
+			<Square MonsterIndex="813" SpawnStartTime="6" SpawnEndTime="10" Name="Mine Driller" />
+			<Square MonsterIndex="815" SpawnStartTime="6" SpawnEndTime="10" Name="Dead Shoveler" />
 		</Ground>
 	</MonsterAppearanceSettings>
 

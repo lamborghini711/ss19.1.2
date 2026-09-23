@@ -63,11 +63,11 @@
 	</Monster>
 
 	<Monster EventLevel="4" MapNumber="32"> <!-- Level 5 (player 1100-1299) -->
-		<Spawn Index="140" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Dark Skull Soldier 7 -->
+		<Spawn Index="334" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Death Angel 7 -->
 		<Spawn Index="438" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Persona -->
-		<Spawn Index="141" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Giant Ogre 7 -->
-		<Spawn Index="142" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Red Skeleton Knight 7 -->
-		<Spawn Index="143" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Magic Skeleton 7 -->
+		<Spawn Index="335" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Necron 7 -->
+		<Spawn Index="336" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Death Centurion 7 -->
+		<Spawn Index="337" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Schriker 7 -->
 		<Spawn Index="363" Distance="30" StartX="118" StartY="81" EndX="150" EndY="133" Dir="-1" Count="3" /> <!-- Maya Hand -->
 	</Monster>
 
